@@ -1,0 +1,44 @@
+顺时针打印矩阵
+思路：类似递归的思想，每次都打印最外层的数据，不断打印，结束条件是最后打印一行，或者一列，或者直接打印完
+
+代码：
+class Solution {
+public:
+
+    vector<int> printMatrix(vector<vector<int> > matrix) {
+		int startX = 0, startY = 0, endX = matrix[0].size() - 1, endY = matrix.size() - 1;
+        vector<int> v;
+        while(1){
+            if(startX == endX){
+                while(startY <= endY){
+                    v.push_back(matrix[startY++][startX]);
+                }
+                break;
+            }else if(startY == endY){
+                while(startX <= endX){
+                    v.push_back(matrix[startY][startX++]);
+                }
+                break;
+            }else if(startX > endX || startY > endY){
+                break;
+            }
+			for(int i = startX; i <= endX; i++){
+            	v.push_back(matrix[startY][i]);
+        	}
+        	for(int i = startY + 1; i <= endY; i++){
+                v.push_back(matrix[i][endX]);
+        	}
+        	for(int i = endX - 1; i >= startX; i--){
+                v.push_back(matrix[endY][i]);
+        	}
+        	for(int i = endY - 1; i > startY; i--){
+                v.push_back(matrix[i][startX]);
+        	}
+            startX++;
+            startY++;
+            endX--;
+            endY--;
+        }
+        return v;
+    }
+};
