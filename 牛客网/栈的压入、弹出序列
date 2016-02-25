@@ -1,0 +1,27 @@
+栈的压入、弹出序列
+思路：增加一个辅助栈，遍历第一个vector，如果发现和第二个vector的首元素相同，那么就出栈查找原先入栈的元素，直到发现不相等的再继续遍历第一个vector，
+直到遍历完全第一个vector，如果便利完辅助栈还有元素，说明是不相等的，返回false，否者返回yes
+代码如下：
+class Solution {
+public:
+    bool IsPopOrder(vector<int> pushV,vector<int> popV) {
+        if(pushV.size() == 0 || popV.size() == 0)
+            return false;
+        stack<int> s;//辅助栈
+        int p = 0;//标记popV
+        for(int i = 0; i < pushV.size(); i++){
+            s.push(pushV[i]);
+            if(s.top() == popV[p]){
+                s.pop();
+                p++;
+                while(!s.empty()){
+                    if(s.top() != popV[p])
+                        break;
+                    s.pop();
+                    p++;
+                }
+            }
+        }
+        return s.empty() ? true : false;
+    }
+};
