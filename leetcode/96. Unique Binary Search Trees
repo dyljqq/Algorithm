@@ -1,0 +1,22 @@
+96. Unique Binary Search Trees
+
+思路：看这题的第一反应就是f[n] = f[n - 1] + f[n - 2],后来这想法被判了死刑。然后找规律看出，假设有n个数，那么分别以1 ~ n为根节点，
+当以i为根节点（1<=i<=n）,i的左子树一定在[0,i - 1]，右子树一定是[i + 1, 0],因此以i为根的节点就是count[i - j - 1] * count[j]的和，其中
+0<=j<i,所以只需两层遍历即可。
+
+代码：
+class Solution {
+public:
+    int numTrees(int n) {
+        int count[100] = {0};//如果n>100就gg了
+        count[0] = 1;
+        count[1] = 1;
+        int sum = 0;
+        for(int i = 2; i <= n; i++){
+            for(int j = 0; j < i; j++){
+                count[i] += count[i - j - 1] * count[j];
+            }
+        }
+        return count[n];
+    }
+};
