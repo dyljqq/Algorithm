@@ -1,0 +1,25 @@
+和为S的连续正数序列
+
+思路：我是通过公式推导来的，如果存在这么一个序列，那么（ni - nj + 1） * (ni + nj) = 2 * sum,这里假设ni > nj,通过推导可以得出，
+nk * (nk + 1) = 2 * sum + nj * (nj - 1),因此只要遍历一遍j值，那么就可以得到nk，nk可以通过去根号获得。
+
+代码：
+class Solution {
+public:
+    vector<vector<int> > FindContinuousSequence(int sum) {
+        vector<vector<int> > v;
+        if(sum <= 2)
+            return v;
+        for(int i = 1; i <= sum/2; i++){
+            int m = 2 * sum + i * i - i;
+            int k = sqrt(m);
+            if(k * (k + 1) == m){
+  				vector<int> s;
+                for(int j = i; j <= k; j++)
+                    s.push_back(j);
+                v.push_back(s);
+            }
+        }
+        return v;
+    }
+};

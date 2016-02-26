@@ -1,0 +1,40 @@
+二叉树的下一个结点
+
+思路：两种情况，第一种是pNode有右子树，那么直接往下找它的左子树，找不到则是当前的右子树；第二种情况是没有右子树，那么往回找，直到找到一个
+它的父节点是别人的左子树。如果都找不到，那么就返回NULL；
+
+代码：
+/*
+struct TreeLinkNode {
+    int val;
+    struct TreeLinkNode *left;
+    struct TreeLinkNode *right;
+    struct TreeLinkNode *next;
+    TreeLinkNode(int x) :val(x), left(NULL), right(NULL), next(NULL) {
+
+    }
+};
+*/
+class Solution {
+public:
+    TreeLinkNode* GetNext(TreeLinkNode* pNode)
+    {
+        if(pNode == NULL)
+            return pNode;
+
+        TreeLinkNode* temp = NULL;
+        if(pNode->right != NULL || pNode->next == NULL){
+            temp = pNode->right;
+            while(temp != NULL && temp->left != NULL){
+                temp = temp->left;
+            }
+        }else{
+            while((temp = pNode->next) != NULL){
+            	if(pNode == temp->left)
+                	break;
+            	pNode = pNode->next;
+        	}
+        }
+        return temp;
+    }
+};
