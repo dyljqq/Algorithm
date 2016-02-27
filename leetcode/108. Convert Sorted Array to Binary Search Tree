@@ -1,0 +1,36 @@
+108. Convert Sorted Array to Binary Search Tree
+
+题目：Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
+
+思路：递归查找，因为题目给定的是一个排序好的递增的数组，然后转变成一个二叉搜索树，二叉搜索树的性质就是左<=中<=右,因此只要不断的二分数组，
+将二分得到的值一个个构造成树的节点即可。
+
+代码：
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+class Solution {
+public:
+
+    TreeNode* treeRoot(vector<int> nums, int l, int r){
+        if(l > r)
+            return NULL;
+        int mid = (l + r)/2;
+        TreeNode* root = new TreeNode(nums[mid]);
+        root->left = treeRoot(nums, l, mid - 1);
+        root->right = treeRoot(nums, mid + 1, r);
+        return root;
+    }
+
+    TreeNode* sortedArrayToBST(vector<int>& nums) {
+        if(nums.size() == 0)
+            return NULL;
+        return treeRoot(nums, 0, nums.size() - 1);
+    }
+};
