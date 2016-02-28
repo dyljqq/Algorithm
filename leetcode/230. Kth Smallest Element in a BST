@@ -1,0 +1,44 @@
+230. Kth Smallest Element in a BST
+
+题目：Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
+
+思路：就是找一个第k小的数，只不过给的是一个二叉搜索树。二叉搜索树其实是一个二分的提现，左<=中<=右,因此问题就相当于中序遍历一个树，然后找到第k个节点，
+并输出。
+
+代码：
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    int kthSmallest(TreeNode* root, int k) {
+        if(root == NULL)
+            return 0;
+        stack<TreeNode*> s;
+        int count = 1;
+        TreeNode* node = root;
+        while(node){
+            s.push(node);
+            node = node->left;
+        }
+        while(!s.empty()){
+            node = s.top();
+            s.pop();
+            if(count == k)
+                return node->val;
+            count++;
+            node = node->right;
+            while(node){
+                s.push(node);
+                node = node->left;
+            }
+        }
+        return 0;
+    }
+};
