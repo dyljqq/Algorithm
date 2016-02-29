@@ -1,0 +1,16 @@
+326. Power of Three
+
+题目：Given an integer, write a function to determine if it is a power of three.
+
+思路：就是通过去对数的方式来，看能不能被整除。
+
+代码：
+class Solution {
+public:
+    bool isPowerOfThree(int n) {
+        if(n <= 0)
+            return false;
+        float l = log(n) * 1.0 / log(3);
+        return pow(3, l) == n;
+    }
+};
