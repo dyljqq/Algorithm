@@ -1,0 +1,30 @@
+62. Unique Paths
+
+题目：A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).
+
+The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).
+
+How many possible unique paths are there?
+
+思路：就是一个从（1，1）到（n, m）有多少条路径的问题，那么如果递归的会超时，亲身试过，因为递归计算了太多重复的项，因此考虑用动态规划。
+即dp[i][j] = dp[i - 1][j] + dp[i][j - 1],从方程式可以看出在(i, j)位置的条数就是第(i-1, j)和(i, j-1)的和，因此用一个一维数组
+来表示条数，即res[j] += res[j-1],每次更新第j列的值，那么更新完后就是所求解;
+
+代码：
+class Solution {
+public:
+    int uniquePaths(int m, int n) {
+        if(m <= 0 || n <= 0)
+            return 0;
+        int res[102] = {0};
+        res[0] = 1;
+        int min = m > n ? n : m;
+        int max = m > n ? m : n;
+        for(int i = 0; i < max; i++){
+            for(int j = 1; j < min; j++){
+                res[j] += res[j - 1];
+            }
+        }
+        return res[min - 1];
+    }
+};

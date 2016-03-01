@@ -1,0 +1,45 @@
+63. Unique Paths II
+
+题目：Follow up for "Unique Paths":
+
+Now consider if some obstacles are added to the grids. How many unique paths would there be?
+
+An obstacle and empty space is marked as 1 and 0 respectively in the grid.
+
+For example,
+There is one obstacle in the middle of a 3x3 grid as illustrated below.
+
+[
+  [0,0,0],
+  [0,1,0],
+  [0,0,0]
+]
+The total number of unique paths is 2.
+
+思路：和上次的Unique Paths思路一样，用动态规划的思想进行求解，只不过这次多了一个障碍物，碰到障碍物，我们只用把这列的行置为0即可，然后考虑如果是
+第一行这种特殊情况，以及开始节点为1或者终点为1的情况。
+
+代码：
+class Solution {
+public:
+    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
+        if(obstacleGrid.size() <= 0 || obstacleGrid[0].size() <= 0)
+            return 0;
+        int m = obstacleGrid.size(), n = obstacleGrid[0].size();
+        if(obstacleGrid[0][0] == 1 || obstacleGrid[m - 1][n - 1] == 1)
+            return 0;
+        int res[102] = {0};
+        res[0] = 1;
+        for(int i = 0; i < n; i++){
+            if(obstacleGrid[0][i] == 1)
+                    res[0] = 0;
+            for(int j = 1; j < m; j++){
+                if(obstacleGrid[j][i] == 1)
+                    res[j] = 0;
+                else
+                    res[j] += res[j - 1];
+            }
+        }
+        return res[m - 1];
+    }
+};
