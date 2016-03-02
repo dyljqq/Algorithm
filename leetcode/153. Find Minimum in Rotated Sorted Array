@@ -1,0 +1,50 @@
+153. Find Minimum in Rotated Sorted Array
+
+题目：Suppose a sorted array is rotated at some pivot unknown to you beforehand.
+
+(i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).
+
+Find the minimum element.
+
+You may assume no duplicate exists in the array.
+
+思路：我的话是考虑了如果出现相同元素的情况，因此代码比较长，如果没相同的元素的话，分成刚开始就是拍好序的和已经变化过位置的两种情况，通过二分的思想
+找到对应的解。即start < mid的话说明元素在[mid, end],否者的话出现在[start, mid]
+
+代码：
+class Solution {
+public:
+    int findMin(vector<int>& nums) {
+        if(nums.size() <= 0)
+            return 0;
+        int start = 0, end = nums.size() - 1, mid = 0;
+
+        if(nums[start] < nums[end])
+            return nums[start];
+
+        while(start < end){
+            mid = (start + end)/2;
+
+            if(end - start == 1){
+                return nums[start] >= nums[end] ? nums[end] : nums[start];
+            }
+
+            if(nums[end] == nums[start]){
+                int min = nums[start];
+                start++;
+                while(start <= end){
+                    if(nums[start] < min)
+                        min = nums[start];
+                    start++;
+                }
+                return min;
+            }
+            if(nums[mid] >= nums[start]){
+                start = mid;
+            }else{
+                end = mid;
+            }
+        }
+        return nums[start];
+    }
+};
