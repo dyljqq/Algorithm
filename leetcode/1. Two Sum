@@ -1,0 +1,36 @@
+1. Two Sum
+
+题目：Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+You may assume that each input would have exactly one solution.
+
+Example:
+Given nums = [2, 7, 11, 15], target = 9,
+
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
+
+思路：就是找一个数组中的两个数与给定的数相等。我们可以通过建立一个hashmap来存储值，key表示数组元素，value表示下标。
+
+代码：
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        vector<int> v;
+        if(nums.size() <= 0)
+            return v;
+        map<int, int> m;
+        for(int i = 0; i < nums.size(); i++)
+            m[nums[i]] = i;
+        for (int i = 0; i < nums.size(); i++) {
+            int search = target - nums[i];
+            map<int, int>::iterator it = m.find(search);
+            if(it != m.end() && it->second != i){
+                v.push_back(i);
+                v.push_back(it->second);
+                break;
+            }
+        }
+        return v;
+    }
+};
