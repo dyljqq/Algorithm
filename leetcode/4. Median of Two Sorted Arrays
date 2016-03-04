@@ -1,0 +1,32 @@
+4. Median of Two Sorted Arrays
+
+题目：There are two sorted arrays nums1 and nums2 of size m and n respectively. Find the median of the two sorted arrays.
+The overall run time complexity should be O(log (m+n)).
+
+思路：先将两个数组组合并成一个排好序的数组，然后取中位数。中位数分成数组的长度奇数和偶数。
+
+代码：
+class Solution {
+public:
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        vector<int> nums;
+        int i = 0, j = 0;
+        while(i < nums1.size() && j < nums2.size()){
+            if(nums1[i] > nums2[j]){
+                nums.push_back(nums2[j]);
+                j++;
+            }else{
+                nums.push_back(nums1[i]);
+                i++;
+            }
+        }
+        while (i < nums1.size()) {
+            nums.push_back(nums1[i++]);
+        }
+        while(j < nums2.size()){
+            nums.push_back(nums2[j++]);
+        }
+        int len = nums.size();
+        return len%2 ? nums[len/2] : (nums[len/2] + nums[len/2 - 1])/2.0;
+    }
+};

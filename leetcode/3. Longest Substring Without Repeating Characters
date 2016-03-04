@@ -1,0 +1,32 @@
+3. Longest Substring Without Repeating Characters
+
+题目：Given a string, find the length of the longest substring without repeating characters. For example, the longest substring
+ without repeating letters for "abcabcbb" is "abc", which the length is 3.For "bbbbb" the longest substring is "b",
+ with the length of 1.
+
+ 思路：就是字符串的最长不重复子序列的问题，刚开始天真的勇气了动规，后来发现超时了！！！
+ 动规方程 dp[i] = dp[i - 1] + 1 ,dp[i - 1];
+ 然后就思考了，其实只用一遍循环，遇到重复的就将开始位置标记为当前重复位置加一。字符串的长度就是当前位置减去start。用一个hash表来记录
+ 字符的位置。
+
+ 代码：
+ class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        if(s.length() <= 0)
+            return 0;
+        int hash[256];
+        memset(hash, -1, sizeof(hash));
+        int start = 0, ans = 1, i = 0;
+        for(; i < s.length(); i++){
+            if(hash[s[i]] != -1 ){
+                ans = (i - start) > ans ? i - start : ans;
+                for(int j = start; j < hash[s[i]]; j++) hash[s[j]] = -1;
+                if((hash[s[i]] + 1) > start)
+                    start = hash[s[i]] + 1;
+            }
+            hash[s[i]] = i;
+        }
+        return  ans > i - start ? ans : i - start;
+    }
+};

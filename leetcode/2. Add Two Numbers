@@ -1,0 +1,53 @@
+2. Add Two Numbers
+
+题目：You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+
+Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+Output: 7 -> 0 -> 8
+
+思路：其实这题和普通的十进制的加法挺像，只不过是从高位开始加而已。楼主的发现c的指针用起来是有点蛋疼的。
+
+代码：
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+
+    ListNode newListNode(int val){
+        ListNode node = {val};
+        node.next = NULL;
+        return node;
+    }
+
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        if(l1 == NULL)
+            return l2;
+        else if(l2 == NULL)
+            return l1;
+        int res = 0;
+        ListNode dummy(0);
+        ListNode* p = &dummy;
+        while(l1 || l2){
+            int val = res + (l1 ? l1->val : 0) + (l2 ? l2->val : 0);
+            res = val/10;
+            p->next = new ListNode(val%10);
+            p = p->next;
+            if(l1)
+                l1 = l1->next;
+            if(l2)
+                l2 = l2->next;
+        }
+        if(res){
+            p->next = new ListNode(res);
+            p = p->next;
+        }
+        return dummy.next;
+    }
+
+};
