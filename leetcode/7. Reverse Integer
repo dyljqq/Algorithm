@@ -1,0 +1,24 @@
+7. Reverse Integer
+
+题目：Reverse digits of an integer.
+
+Example1: x = 123, return 321
+Example2: x = -123, return -321
+
+思路：首先是考虑数字越界的问题，就是我数字超过了int型怎么办。所以先用long long型表示，然后判断这个数有没有越界，但是这还有一个问题，就是我
+long long型也保存不下呢，其实这里的思路跟大整数相加很像。
+
+代码：
+class Solution {
+public:
+    int reverse(int x) {
+        long long n = 0;
+        int m = 0;
+        while(x != 0){
+            m = x%10;
+            n = n * 10 + m;
+            x = x/10;
+        }
+        return (n > INT_MAX || n < INT_MIN) ? 0 : n;
+    }
+};
