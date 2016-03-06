@@ -1,0 +1,48 @@
+8. String to Integer (atoi)
+
+题目：Implement atoi to convert a string to an integer.
+
+Hint: Carefully consider all possible input cases. If you want a challenge, please do not see below and ask yourself what are the possible input cases.
+
+Notes: It is intended for this problem to be specified vaguely (ie, no given input specs). You are responsible to gather all the input requirements up front.
+
+思路：这个输入的数据把我弄得好苦，一点规则都不懂，然后悲剧的提交了很多次。他连“    +123a23”这种也算是整数，而且整数是123.然后越界的
+直接算是最大的int类型最大的或最小的值。（然后看了大神们的答案，发现思路是一样的，但是他们是直接通过操纵下标来获得值，而我是通过复制
+字符串来获取值，因此这里的效率应该差了点）
+
+代码：
+class Solution {
+public:
+    int myAtoi(string str) {
+        if(str.length() <= 0)
+            return 0;
+        long long sum = 0;
+        int flag = 1, len = str.length(), i = 0;
+        for(i = 0; i < str.length(); i++){
+            if(str[i] != ' '){
+                break;
+            }
+        }
+        if(i >= len){
+            return 0;
+        }
+        str = str.substr(i, len - i);
+        len = str.length();
+        if(str[0] == '-' || str[0] == '+'){
+            if(str[0] == '-')
+                flag = 0;
+            str = str.substr(1, len - 1);
+            len = str.length();
+        }
+        for(i = 0; i < len; i++){
+            if(str[i] == '.' || str[i] < '0' || str[i] > '9')
+                break;
+            sum = sum * 10 + (str[i] - '0');
+            if(sum > INT_MAX && flag)
+                return INT_MAX;
+            else if(sum * -1 < INT_MIN && !flag)
+                return INT_MIN;
+        }
+        return flag ? sum : (sum * -1);
+    }
+};
