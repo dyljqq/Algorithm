@@ -1,0 +1,22 @@
+9. Palindrome Number
+
+题目：Determine whether an integer is a palindrome. Do this without extra space.
+
+思路：类似两个指针，一个从头开始减少，一个从尾开始相加。
+
+代码：
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        if(x < 0 || (x % 10 == 0 && x != 0))
+            return false;
+        else if(x >= 0 && x <= 9)
+            return true;
+        int sum = 0;
+        while(x > sum){
+            sum = sum * 10 + x % 10;
+            x = x/10;
+        }
+        return (x == sum) || (x == sum/10);
+    }
+};
