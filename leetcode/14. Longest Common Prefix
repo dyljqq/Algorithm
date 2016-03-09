@@ -1,0 +1,58 @@
+14. Longest Common Prefix
+
+题目：Write a function to find the longest common prefix string amongst an array of strings.
+
+思路：找所有字符串的最大前缀。我刚开始的想法是先找到最短的字符串，然后根据这个字符串长度去找最大前缀。时间复杂度是O(N * l),l表示最短字符串
+的长度。后来发现不需要啊，我拿第一个字符串开始找，每次遍历一遍剩余的字符串的起始字符，那么就能获得最大前缀，然后发现时间快乐好多。时间复杂度是
+O(l * N),当然这个是最坏的情况，好一点的就会快很多。所以这个方案显然优于我的第一个方案。
+
+代码：
+第一种：(4ms)
+class Solution {
+public:
+    string longestCommonPrefix(vector<string>& strs) {
+        if(strs.size() <= 0)
+            return "";
+        int flag = 0;
+        string smallStr = strs[0];
+        for(int i = 1; i < strs.size(); i++){
+            if(smallStr.length() < strs[i].length()){
+                smallStr = strs[i];
+                flag = i;
+            }
+        }
+        for(int i = 0; i < strs.size(); i++){
+            if(i == flag)
+                continue;
+            string prefix = "";
+            for(int j = 0; j < smallStr.length(); j++){
+                if(strs[i][j] != smallStr[j]){
+                    smallStr = prefix;
+                    break;
+                }
+                prefix += smallStr[j];
+            }
+        }
+        return smallStr;
+    }
+};
+
+第二种：
+class Solution {
+public:
+    string longestCommonPrefix(vector<string>& strs) {
+        int n = strs.size();
+        if(n == 0)return res;
+        string res;
+        for(int pos = 0; pos < strs[0].size(); pos++)
+        {
+            for(int k = 1; k < n; k++)
+            {
+                if(strs[k].size() == pos || strs[k][pos] != strs[0][pos])
+                    return res;
+            }
+            res.push_back(strs[0][pos]);
+        }
+        return res;
+    }
+};
