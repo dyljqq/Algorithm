@@ -1,0 +1,58 @@
+15. 3Sum
+
+题目：Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+
+Note:
+Elements in a triplet (a,b,c) must be in non-descending order. (ie, a ≤ b ≤ c)
+The solution set must not contain duplicate triplets.
+    For example, given array S = {-1 0 1 2 -1 -4},
+
+    A solution set is:
+    (-1, 0, 1)
+    (-1, -1, 2)
+
+思路：这题就是让我从数组中找三个数，他们的和为0，并且每组的数都不能重复。前面在leetcode中做个一个2sum的题，这个就是它的一个延生。
+那么，首先我们需要对数组进行排序，排序的目的是为了更好的找数字，然后用夹逼法则去进行查找。为了找不到重复的，我们只用判断判断这个数的
+后面的值是否相等，这时的排序的作用就很好的提现出来了。下面的证明是借鉴网上的大神的思路，即：
+假设这个数组为A[1] ~ A[n], 从1~n遍历一遍即可。假设我们找的数是A[2], 存在数组的范围是(A[1], A[3] ~ A[n]),
+那么A[2] = 0 - A[1] - m, m表示m属于A[3] ~ A[n]中的任意一个。所以转化下就是A[1] = 0 - A[2] - m，就是以A[1]为起点的一个解。
+
+代码：
+class Solution {
+public:
+    void twoSum(vector<int> &nums, int index, int target, vector<vector<int>> &res){
+        int right = nums.size() - 1, left = index + 1;
+        while(left < right){
+            int t = nums[left] + nums[right];
+            if(t == target){
+                vector<int> v;
+                v.push_back(nums[index]);
+                v.push_back(nums[left]);
+                v.push_back(nums[right]);
+                res.push_back(v);
+                left++;
+                //避免重复查找
+                while(left < right && nums[left] == nums[left - 1]) left++;
+                while(left < right && nums[right] == nums[right - 1]) right--;
+            }else if(t > target){
+                right--;
+            }else{
+                left++;
+            }
+        }
+    }
+
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        vector<vector<int>> res;
+        if(nums.size() <= 0)
+            return res;
+        sort(nums.begin(), nums.end());
+        int n = nums.size() - 2;
+        for(int i = 0; i < n; i++){
+            if(i > 0 && nums[i] == nums[i-1]) continue; //避免重复查找
+            int target = 0 - nums[i];
+            twoSum(nums, i, target, res);
+        }
+        return res;
+    }
+};
