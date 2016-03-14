@@ -1,0 +1,37 @@
+20. Valid Parentheses
+
+题目：Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
+
+思路：首先奇数个的字符串一定是不符合的，其次通过栈来存储‘（’， '[', '{'，如果不是，那么则进行比较，看这个字符串是否与栈顶的元素匹配，不匹配的话
+就跳出，只需遍历一遍整个字符串即可得到答案。
+
+代码：
+class Solution {
+public:
+    bool isValid(string s) {
+        if(s.length() % 2 == 1 || s.length() == 0)
+            return false;
+        stack<char> st;
+        int index = 0;
+        do{
+            if(s[index] == '(' || s[index] == '[' || s[index] == '{'){
+                st.push(s[index]);
+            }else{
+                while(!st.empty() && index < s.length()){
+                    char ch = st.top();
+                    if((ch == '(' && s[index] == ')') || (ch == '[' && s[index] == ']') || (ch == '{' && s[index] == '}')){
+                        st.pop();
+                        index++;
+                    }else{
+                        st.push(s[index]);
+                        break;
+                    }
+                }
+            }
+            index++;
+        }while(index < s.length());
+        return st.empty();
+    }
+};
