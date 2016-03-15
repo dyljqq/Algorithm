@@ -1,0 +1,34 @@
+22. Generate Parentheses
+
+题目：
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+For example, given n = 3, a solution set is:
+
+"((()))", "(()())", "(())()", "()(())", "()()()"
+
+思路：递归解决，条件是"("的数量不小于")".
+
+代码：
+class Solution {
+public:
+    vector<string> generateParenthesis(int n) {
+        generate(0, 0, "", n);
+        return result;
+    }
+
+private:
+    vector<string> result;
+    void generate(int left, int right, string s, int n){
+        if(right == n){
+            result.push_back(s);
+        }else{
+            if(left < n){
+                generate(left + 1, right, s + "(", n);
+            }
+            if(right < left){
+                generate(left, right + 1, s + ")", n);
+            }
+        }
+    }
+};

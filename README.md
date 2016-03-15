@@ -16,6 +16,9 @@ leetcode已解题列表：
 * 15.3Sum
 * 16.3Sum Closest
 * 19.Remove Nth Node From End of List
+* 20.Valid Parentheses
+* 21.Merge Two Sorted Lists
+* 22.Generate Parentheses
 * 62.Unique Paths
 * 63.Unique Paths II
 * 96.Unique Binary Search Trees
