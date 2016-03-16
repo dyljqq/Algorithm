@@ -19,6 +19,10 @@ leetcode已解题列表：
 * 20.Valid Parentheses
 * 21.Merge Two Sorted Lists
 * 22.Generate Parentheses
+* 24.Swap Nodes in Pairs
+* 26.Remove Duplicates from Sorted Array
+* 27.Remove Element
+* 28.Implement strStr()
 * 62.Unique Paths
 * 63.Unique Paths II
 * 96.Unique Binary Search Trees
