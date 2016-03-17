@@ -1,0 +1,28 @@
+29. Divide Two Integers
+
+题目：
+Divide two integers without using multiplication, division and mod operator.
+
+If it is overflow, return MAX_INT.
+
+代码：
+class Solution {
+public:
+    int divide(int dividend, int divisor) {
+        if(divisor == 0 || (dividend == INT_MIN && divisor == -1))
+            return INT_MAX;
+        int sign = ((dividend < 0) ^ (divisor < 0)) ? -1 : 1;
+        long long div = labs(dividend), di = labs(divisor), shift = 1, sum = 0;
+        while(div >= di){
+            shift = 1;
+            long long tmp = di;
+            while(div >= (tmp << 1)){
+                shift <<= 1;
+                tmp <<= 1;
+            }
+            sum += shift;
+            div -= tmp;
+        }
+        return sum * sign;
+    }
+};
