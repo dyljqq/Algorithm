@@ -1,0 +1,43 @@
+38. Count and Say
+
+题目：
+The count-and-say sequence is the sequence of integers beginning as follows:
+1, 11, 21, 1211, 111221, ...
+
+1 is read off as "one 1" or 11.
+11 is read off as "two 1s" or 21.
+21 is read off as "one 2, then one 1" or 1211.
+Given an integer n, generate the nth sequence.
+
+思路：题目理解起来比较麻烦，就是1表示一个1， 11表示2个1， 21表示1个2和一个1，以此类推
+
+代码：
+class Solution {
+public:
+    string countAndSay(int n) {
+        if(n <= 0)
+            return "";
+        else if(n == 1)
+            return "1";
+        else if(n == 2)
+            return "11";
+        string s = "11";
+        while(n-- > 2){
+            string ss = "";
+            int j = 1, i = 1;
+            for(i = 1; i < s.length(); i++){
+                if(s[i] == s[i - 1]){
+                    j++;
+                }else{
+                    ss += (char)(j + '0');
+                    ss += s[i - 1];
+                    j = 1;
+                }
+            }
+            ss += (char)(j + '0');
+            ss += s[i - 1];
+            s = ss;
+        }
+        return s;
+    }
+};
