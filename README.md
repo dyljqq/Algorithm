@@ -24,6 +24,8 @@ leetcode已解题列表：
 * 27.Remove Element
 * 28.Implement strStr()
 * 29.Divide Two Integers
+* 43.Multiply Strings
+* 46.Permutations
 * 62.Unique Paths
 * 63.Unique Paths II
 * 96.Unique Binary Search Trees

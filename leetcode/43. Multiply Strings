@@ -1,0 +1,71 @@
+43. Multiply Strings
+
+题目：
+Given two numbers represented as strings, return multiplication of the numbers as a string.
+
+Note: The numbers can be arbitrarily large and are non-negative.
+
+思路：大数乘，跟自己做乘法一个思路
+
+代码：
+class Solution {
+public:
+    string multiply(string num1, string num2) {
+        if(num1.length() <= 0 || num2.length() <= 0)
+            return "";
+        if(num1 == "0" || num2 == "0")
+            return "0";
+        int sign = 1;
+        if(num1[0] == '-'){
+            num1 = num1.substr(1, num1.length());
+            sign *= -1;
+        }
+        if(num2[0] == '-'){
+            num2 = num2.substr(1, num2.length());
+            sign *= -1;
+        }
+        string min = num1.length() > num2.length() ? num2 : num1;
+        string max = num1.length() > num2.length() ? num1 : num2;
+        string ss = "";
+        for(int i = 0; i < min.length(); i++){
+            string s = "";
+            int carry = 0;
+            for (int k = 0; k < i; k++) {
+                s += '0';
+            }
+            for(int j = 0; j < max.length(); j++){
+                int a = (min[min.length() - i - 1] - '0') * (max[max.length() - j - 1] - '0') + carry;
+                carry = a/10;
+                s += a%10 + '0';
+            }
+            if(carry > 0){
+                s += (char)(carry + '0');
+            }
+            ss = add(ss, s);
+        }
+        if(sign == -1)
+            ss += '-';
+        reverse(ss.begin(), ss.end());
+        return ss;
+    }
+
+    string add(string s1, string s2){
+        string min = s1.length() > s2.length() ? s2 : s1;
+        string max = s1.length() > s2.length() ? s1 : s2;
+        int carry = 0;
+        string s = "";
+        for(int i = 0; i < max.length(); i++){
+            int a = 0;
+            if(i < min.length()){
+                a = (max[i] - '0') + (min[i] - '0') + carry;
+            }else{
+                a = (max[i] - '0') + carry;
+            }
+            carry = a/10;
+            s += (char)(a%10 + '0');
+        }
+        if(carry > 0)
+            s += '1';
+        return s;
+    }
+};
