@@ -1,0 +1,39 @@
+49. Group Anagrams
+
+题目：Given an array of strings, group anagrams together.
+
+For example, given: ["eat", "tea", "tan", "ate", "nat", "bat"],
+Return:
+
+[
+  ["ate", "eat","tea"],
+  ["nat","tan"],
+  ["bat"]
+]
+
+思路：用一个hashmap存储
+
+代码：
+class Solution {
+public:
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        vector<vector<string>> v;
+        if(strs.size() <= 0)
+            return v;
+        unordered_map<string, int> map;
+        for(int i = 0; i < strs.size(); i++){
+            string tmp = strs[i];
+            sort(tmp.begin(), tmp.end());
+            if(map.find(tmp) == map.end()){
+                map[tmp] = v.size();
+                v.push_back(vector<string>(1, strs[i]));
+            }else{
+                v[map[tmp]].push_back(strs[i]);
+            }
+        }
+        for(int i = 0; i < v.size(); i++){
+            sort(v[i].begin(), v[i].end());
+        }
+        return v;
+    }
+};

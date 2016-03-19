@@ -26,6 +26,9 @@ leetcode已解题列表：
 * 29.Divide Two Integers
 * 43.Multiply Strings
 * 46.Permutations
+* 49.Group Anagrams
+* 50.Pow(x, n)
+* 54.Spiral Matrix
 * 62.Unique Paths
 * 63.Unique Paths II
 * 96.Unique Binary Search Trees

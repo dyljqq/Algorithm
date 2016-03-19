@@ -1,0 +1,22 @@
+50. Pow(x, n)
+
+题目：Implement pow(x, n).
+
+思路：将n二分，pow(x, n) = pow(x, n/2) * pow(x, n/2);
+
+代码：
+class Solution {
+public:
+    double myPow(double x, int n) {
+        int m = abs(n);
+        double rec = recur(x, m);
+        return n >= 0 ? rec : 1.0/rec;
+    }
+
+    double recur(double x, int n){
+        if(n == 0)
+            return 1;
+        double half = recur(x, n/2);
+        return n%2 == 0 ? half * half : (x * half * half);
+    }
+};
