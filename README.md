@@ -29,6 +29,8 @@ leetcode已解题列表：
 * 49.Group Anagrams
 * 50.Pow(x, n)
 * 54.Spiral Matrix
+* 58.Length of Last Word
+* 60.Permutation Sequence
 * 62.Unique Paths
 * 63.Unique Paths II
 * 96.Unique Binary Search Trees

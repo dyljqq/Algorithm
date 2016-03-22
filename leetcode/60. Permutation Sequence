@@ -1,0 +1,50 @@
+60. Permutation Sequence
+
+题目：
+The set [1,2,3,…,n] contains a total of n! unique permutations.
+
+By listing and labeling all of the permutations in order,
+We get the following sequence (ie, for n = 3):
+
+"123"
+"132"
+"213"
+"231"
+"312"
+"321"
+Given n and k, return the kth permutation sequence.
+
+思路：我试过暴力破解，结果妥妥的超时。然后就思考了每位数字的排列规律，我们可以知道最高位其实和（n-1）!的值有关，即最高位
+ch = (k - 1)/fac(n-1);
+
+代码：
+class Solution {
+public:
+    string getPermutation(int n, int k) {
+        if(k > fac(n) || k <= 0)
+            return "";
+        vector<int> v;
+        for(int i = 0; i < n; i++)
+            v.push_back(i + 1);
+        string s = "";
+        while(n--){
+            int a = (k - 1)/fac(n);
+            s += (char)(v[a] + '0');
+            k -= a * fac(n);
+            for(int i = a; i < n; i++){
+                v[i] = v[i + 1];
+            }
+            v.pop_back();
+        }
+        return s;
+    }
+
+    int fac(int n){
+        int f = 1;
+        while(n){
+            f *= n;
+            n--;
+        }
+        return f;
+    }
+};
