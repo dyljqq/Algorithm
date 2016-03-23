@@ -1,0 +1,43 @@
+61. Rotate List
+
+题目：Given a list, rotate the list to the right by k places, where k is non-negative.
+
+For example:
+Given 1->2->3->4->5->NULL and k = 2,
+return 4->5->1->2->3->NULL.
+
+思路：注意循环的意思！！！
+
+代码：
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* rotateRight(ListNode* head, int k) {
+        if(head == NULL || k == 0)
+            return head;
+        int count = 1;
+        ListNode* p = head, *q = head;
+        while(q->next != NULL){
+            q = q->next;
+            count++;
+        }
+        if(k%count == 0)
+            return head;
+        k = count - k%count;
+        ListNode* temp = head;
+        while(k--){
+            p = temp;
+            temp = temp->next;
+        }
+        p->next = NULL;
+        q->next = head;
+        return temp;
+    }
+};
