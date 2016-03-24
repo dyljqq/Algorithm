@@ -1,0 +1,35 @@
+67. Add Binary
+
+题目：
+Given two binary strings, return their sum (also a binary string).
+
+For example,
+a = "11"
+b = "1"
+Return "100".
+
+代码：
+class Solution {
+public:
+    string addBinary(string a, string b) {
+        int carry = 0, m = a.length(), n = b.length();
+        string s = "";
+        for(int i = 0; i < m || i < n; i++){
+            int c = 0;
+            if(i >= n){
+                c = (a[m - i - 1] - '0') + carry;
+            }else if(i >= m){
+                c = (b[n - i - 1] - '0') + carry;
+            }else{
+                c = (a[m - i - 1] - '0') + (b[n - i - 1] - '0') + carry;
+            }
+            s += (char)(c%2 + '0');
+            carry = c/2;
+        }
+        if(carry == 1){
+            s += '1';
+        }
+        reverse(s.begin(), s.end());
+        return s;
+    }
+};
