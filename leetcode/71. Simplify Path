@@ -1,0 +1,52 @@
+71. Simplify Path
+
+题目：
+Given an absolute path for a file (Unix-style), simplify it.
+
+For example,
+path = "/home/", => "/home"
+path = "/a/./b/../../c/", => "/c"
+
+思路：先按'/'字符进行拆分，然后删除不符合的元素，最后合并成字符串。
+
+代码:
+class Solution {
+public:
+    string simplifyPath(string path) {
+        vector<string> v;
+        string str = "";
+        for(int i = 0; i < path.size(); i++){
+            if(path[i] == '/'){
+                v.push_back(str);
+                str = "";
+            }else{
+                str += path[i];
+            }
+        }
+        if(str != ""){
+            v.push_back(str);
+        }
+        stack<string> s;
+        for(int i = 0; i < v.size(); i++){
+            if(v[i] == ".."){
+                if(!s.empty()){
+                    s.pop();
+                }
+            }else if(v[i] != "." && v[i] != ""){
+                s.push(v[i]);
+            }
+        }
+        str = "";
+        vector<string> vv;
+        while (!s.empty()) {
+            str = '/' + s.top();
+            vv.push_back(str);
+            s.pop();
+        }
+        str = "";
+        for(int i = vv.size() - 1; i >= 0; i--){
+            str += vv[i];
+        }
+        return str != "" ? str : "/";
+    }
+};
