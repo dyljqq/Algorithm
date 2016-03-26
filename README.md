@@ -38,6 +38,7 @@ leetcode已解题列表：
 * 66.Plus One
 * 67.Add Binary
 * 69.Sqrt(x)
+* 71.Simplify Path
 * 96.Unique Binary Search Trees
 * 108.Convert Sorted Array to Binary Search Tree
 * 141.Linked List Cycle
