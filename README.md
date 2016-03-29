@@ -48,3 +48,7 @@ leetcode已解题列表：
 * 202.Happy Number
 * 230.Kth Smallest Element in a BST
 * 326.Power of Three
+
+编程之美
+
+* 24点

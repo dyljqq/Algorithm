@@ -1,0 +1,137 @@
+题目：24点算法（假设只有加减乘除运算）
+
+思路：通过动态规划的思想来去除重复的解，用二进制表示每个数字的位置，比如a1 = 0001, a2 = 0010, a3 = 0100, a4 = 1000。
+
+代码：
+//
+//  main.cpp
+//  24Game
+//
+//  Created by 季勤强 on 16/3/27.
+//  Copyright © 2016年 季勤强. All rights reserved.
+//
+
+#include <iostream>
+#include <vector>
+#include <math.h>
+#include <map>
+#include <string>
+
+using namespace std;
+
+vector<vector<vector<string>>> expression;
+
+void print(vector<vector<vector<double>>> s, int m){
+    for(int i = 0; i < s[m].size(); i++){
+        for (int j = 0; j < s[m][i].size(); j++) {
+            if(s[m][i][j] == 24){
+                printf("%.2f %s",s[m][i][j], expression[m][i][j].c_str());
+            }
+        }
+        printf("\n");
+    }
+    printf("\n");
+}
+
+string toStr(int i){
+    char s[16];
+    sprintf(s, "%d", i);
+    char* p = s;
+    string str(p);
+    return str;
+}
+
+vector<vector<double>> calculateFork(vector<double> a, vector<double> b, vector<string> s1, vector<string> s2, int m){
+    vector<vector<double>> vv;
+    vector<vector<string>> ss;
+    for (int i = 0; i < a.size(); i++) {
+        vector<double> c;
+        vector<string> s;
+        for (int j = 0 ; j < b.size(); j++) {
+            s.push_back('(' + s1[i] + '+' + s2[j] + ')');
+            s.push_back('(' + s1[i] + '-' + s2[j] + ')');
+            s.push_back('(' + s1[i] + '*' + s2[j] + ')');
+            s.push_back('(' + s2[j] + '-' + s1[i] + ')');
+            c.push_back(a[i] + b[j]);
+            c.push_back(a[i] - b[j]);
+            c.push_back(a[i] * b[j]);
+            c.push_back(b[j] - a[i]);
+            if(a[i] != 0){
+                s.push_back('(' + s2[j] + '/' + s1[i] + ')');
+                c.push_back(b[j]/a[i]);
+            }
+            if(b[j] != 0){
+                s.push_back('(' + s1[i] + '/' + s2[j] + ')');
+                c.push_back(a[i]/b[j]);
+            }
+        }
+        ss.push_back(s);
+        vv.push_back(c);
+    }
+    expression[m] = ss;
+    return vv;
+}
+
+int check(vector<vector<double>> v){
+    for (int i = 0; i < v.size(); i++) {
+        for (int j = 0; j < v[i].size(); j++) {
+            if(v[i][j] == 24){
+                printf("%.2f %s\n",v[i][j], expression[15][i][j].c_str());
+                return j;
+            }
+        }
+    }
+    return 0;
+}
+
+vector<vector<double>> fork(vector<vector<vector<double>>> s, int m){
+    if(s[m].size() > 0){
+        return s[m];
+    }
+    for(int i = 1; i < m; i++){
+        if((m & i) == i){
+            vector<vector<double>> vv = fork(s, i);
+            for(int j = 0; j < vv.size(); j++){
+                vector<vector<double>> v = fork(s, m - i);
+                for (int k = 0; k < v.size(); k++) {
+                    s[m] = calculateFork(vv[j], v[k], expression[i][j], expression[m - i][k], m);
+                }
+            }
+        }
+    }
+    return s[m];
+}
+
+void game(vector<int> array){
+    int n = array.size();
+    int p = pow(2, n);
+    vector<vector<vector<double>>> s;
+    for (int i = 0; i < p; i++) {
+        vector<vector<double>> v;
+        vector<vector<string>> e;
+        expression.push_back(e);
+        s.push_back(v);
+    }
+    for (int i = 0; i < n; i++) {
+        double a = pow(2, i);
+        vector<vector<double>> v(1, vector<double>(1, array[i]));
+        vector<vector<string>> vv(1, vector<string>(1, toStr(array[i])));
+        s[a] = v;
+        expression[a] = vv;
+    }
+    for (int i = 1 ; i < p; i++) {
+        s[i] = fork(s, i);
+    }
+    check(s[p - 1]);
+}
+
+int main(int argc, const char * argv[]) {
+    // insert code here...
+    vector<int> array;
+    array.push_back(5);
+    array.push_back(5);
+    array.push_back(5);
+    array.push_back(1);
+    game(array);
+    return 0;
+}
