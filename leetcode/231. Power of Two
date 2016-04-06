@@ -1,0 +1,12 @@
+231. Power of Two
+
+题目：
+Given an integer, write a function to determine if it is a power of two.
+
+代码：
+class Solution {
+public:
+    bool isPowerOfTwo(int n) {
+        return n>0 && !((n-1)&n);
+    }
+};

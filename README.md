@@ -49,6 +49,7 @@ leetcode已解题列表：
 * 154.Find Minimum in Rotated Sorted Array II
 * 202.Happy Number
 * 230.Kth Smallest Element in a BST
+* 231.Power of Two
 * 326.Power of Three
 
 编程之美
