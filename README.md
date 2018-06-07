@@ -5,6 +5,7 @@
 ### 使用swift解题
 
 * [Two Sum](https://leetcode.com/problems/two-sum/description/)
+* [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
 
 ### leetcode已解题列表：
 
