@@ -2,7 +2,11 @@
 
 主要记录我每天做的题目，包括leetcode， 剑指offer等在线编程平台，以前做过的等时间够再一起分享。
 
-leetcode已解题列表：
+### 使用swift解题
+
+* [Two Sum](https://leetcode.com/problems/two-sum/description/)
+
+### leetcode已解题列表：
 
 * 1.Two Sum
 * 2.Add Two Numbers
@@ -52,6 +56,6 @@ leetcode已解题列表：
 * 231.Power of Two
 * 326.Power of Three
 
-编程之美
+### 编程之美
 
 * 24点
