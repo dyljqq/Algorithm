@@ -6,6 +6,8 @@
 
 * [Two Sum](https://leetcode.com/problems/two-sum/description/)
 * [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
+* [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
+* [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
 
 ### leetcode已解题列表：
 
