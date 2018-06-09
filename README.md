@@ -9,6 +9,7 @@
 * [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
 * [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
 * [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
+* [Single Number](https://leetcode.com/problems/single-number/description/)
 
 ### leetcode已解题列表：
 
