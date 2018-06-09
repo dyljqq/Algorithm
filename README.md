@@ -8,6 +8,7 @@
 * [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
 * [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
 * [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
+* [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 
 ### leetcode已解题列表：
 
