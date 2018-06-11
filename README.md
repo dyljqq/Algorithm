@@ -10,6 +10,7 @@
 * [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
 * [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 * [Single Number](https://leetcode.com/problems/single-number/description/)
+* [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)
 
 ### leetcode已解题列表：
 
