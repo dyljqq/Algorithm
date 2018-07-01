@@ -14,6 +14,7 @@
 * [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 * [461. Hamming Distance](https://leetcode.com/problems/hamming-distance/description/)
 * [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)
+* [538. Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)
 
 ### leetcode已解题列表：
 
