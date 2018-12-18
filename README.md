@@ -21,6 +21,8 @@
 * [198. House Robber](https://leetcode.com/problems/house-robber/description/)
 * [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
 * [338. Counting Bits](https://leetcode.com/problems/counting-bits/description/)
+* [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
+* [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
 
 ### leetcode已解题列表：
 
