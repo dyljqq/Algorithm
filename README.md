@@ -24,6 +24,7 @@
 * [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
 * [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
 * [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)
+* [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 
 ### leetcode已解题列表：
 
