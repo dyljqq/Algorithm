@@ -25,6 +25,7 @@
 * [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
 * [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)
 * [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+* [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 
 ### leetcode已解题列表：
 
