@@ -67,5 +67,41 @@ func isPalindrome(node: ListNode<String>) -> Bool {
   return true
 }
 
-let node = createLinkedList("dlyld")
-print(isPalindrome(node: node!))
+//let node = createLinkedList("dlyld")
+//print(isPalindrome(node: node!))
+
+// 栈
+struct Stack<T> {
+  
+  var items: [T] = []
+
+  mutating func push(_ value: T) {
+    self.items.append(value)
+  }
+  
+  mutating func pop() -> T? {
+    guard !isEmpty() else { return nil }
+    return self.items.removeLast()
+  }
+  
+  func isEmpty() -> Bool {
+    return self.items.count == 0
+  }
+  
+}
+
+func reverseNode() {
+  var stack = Stack<String>()
+  var head = createLinkedList("123456")
+  var p = head
+  while p != nil {
+    stack.push(p!.value)
+    p = p!.next
+  }
+  
+  while !stack.isEmpty() {
+    print(stack.pop())
+  }
+}
+
+reverseNode()
