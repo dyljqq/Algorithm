@@ -26,6 +26,7 @@
 * [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)
 * [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 * [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+* [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 ### leetcode已解题列表：
 
