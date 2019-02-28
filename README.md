@@ -27,6 +27,7 @@
 * [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 * [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 * [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+* [79. Word Search](https://leetcode.com/problems/word-search/)
 
 ### leetcode已解题列表：
 
