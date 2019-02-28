@@ -20,38 +20,6 @@ class WordSearch2 {
     }
   }
   
-  class Trie {
-    
-    let root: TrieNode
-    
-    init() {
-      self.root = TrieNode()
-    }
-    
-    func insert(_ word: String) {
-      var node = self.root
-      for c in word {
-        if node.child[c] == nil {
-          node.child[c] = TrieNode()
-        }
-        node = node.child[c]!
-      }
-      node.isEnd = true
-    }
-    
-    func isValid(_ word: String, isCheckWord: Bool = false) -> Bool {
-      var node = root
-      for c in word {
-        if node.child[c] == nil {
-          return false
-        }
-        node = node.child[c]!
-      }
-      return isCheckWord ? node.isEnd : true
-    }
-    
-  }
-  
   func findWords(_ board: [[Character]], _ words: [String]) -> [String] {
     guard board.count > 0 else { return [] }
     
@@ -70,32 +38,42 @@ class WordSearch2 {
     return res
   }
   
-  func dfs(_ board: [[Character]], _ i: Int, _ j: Int, _ trie: Trie, _ str: String, _ visited: inout [[Bool]], _ res: inout [String]) {
+  func dfs(_ board: [[Character]], _ i: Int, _ j: Int, _ trie: TrieNode, _ str: String, _ visited: inout [[Bool]], _ res: inout [String]) {
     guard i >= 0 && i < board.count && j >= 0 && j < board[0].count && !visited[i][j] else { return }
     
-    let str = str + String(board[i][j])
-    if !trie.isValid(str) {
-      return
-    }
+    let c = board[i][j]
+    guard let node = trie.child[c] else { return }
     
-    if trie.isValid(str, isCheckWord: true) && !res.contains(str) {
+    let str = str + String(board[i][j])
+    if node.isEnd && !res.contains(str) {
       res.append(str)
     }
     
     visited[i][j] = true
-    dfs(board, i - 1, j, trie, str, &visited, &res)
-    dfs(board, i + 1, j, trie, str, &visited, &res)
-    dfs(board, i, j - 1, trie, str, &visited, &res)
-    dfs(board, i, j + 1, trie, str, &visited, &res)
+    dfs(board, i - 1, j, node, str, &visited, &res)
+    dfs(board, i + 1, j, node, str, &visited, &res)
+    dfs(board, i, j - 1, node, str, &visited, &res)
+    dfs(board, i, j + 1, node, str, &visited, &res)
     visited[i][j] = false
   }
   
-  func buildTrie(_ words: [String]) -> Trie {
-    let trie = Trie()
+  func buildTrie(_ words: [String]) -> TrieNode {
+    let root = TrieNode()
     for word in words {
-      trie.insert(word)
+     insert(root, word)
     }
-    return trie
+    return root
+  }
+  
+  func insert(_ root: TrieNode, _ word: String) {
+    var node = root
+    for c in word {
+      if node.child[c] == nil {
+        node.child[c] = TrieNode()
+      }
+      node = node.child[c]!
+    }
+    node.isEnd = true
   }
   
   func test() {
