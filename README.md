@@ -30,6 +30,7 @@
 * [79. Word Search](https://leetcode.com/problems/word-search/)
 * [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
 * [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/submissions/)
+* [739.Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 
 ### leetcode已解题列表：
 
