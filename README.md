@@ -33,6 +33,7 @@
 * [739.Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 * [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 * [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
+* [155. Min Stack](https://leetcode.com/problems/min-stack/)
 
 ### leetcode已解题列表：
 
