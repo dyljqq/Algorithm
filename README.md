@@ -36,6 +36,7 @@
 * [155. Min Stack](https://leetcode.com/problems/min-stack/)
 * [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 * [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
+* [78. Subsets](https://leetcode.com/problems/subsets/)
 
 ### leetcode已解题列表：
 
