@@ -37,6 +37,7 @@
 * [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 * [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
 * [78. Subsets](https://leetcode.com/problems/subsets/)
+* [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 
 ### leetcode已解题列表：
 
