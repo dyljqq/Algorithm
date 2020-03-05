@@ -38,6 +38,7 @@
 * [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
 * [78. Subsets](https://leetcode.com/problems/subsets/)
 * [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+* [1103. Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)
 
 ### leetcode已解题列表：
 
