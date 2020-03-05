@@ -39,6 +39,7 @@
 * [78. Subsets](https://leetcode.com/problems/subsets/)
 * [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 * [1103. Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)
+* [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
 
 ### leetcode已解题列表：
 
