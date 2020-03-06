@@ -14,7 +14,7 @@ import Foundation
 
 class ContinuousSequence {
   func findContinuousSequence(_ target: Int) -> [[Int]] {
-    return (1..<target).reduce([[Int]]()) { result, n in
+    return (1..<Int(target / 2 + 1)).reduce([[Int]]()) { result, n in
       var result = result
       let v = (sqrt(Double(4 * n * n - 4 * n + 8 * target + 1)) - 1) / 2
       if v == floor(v) {
