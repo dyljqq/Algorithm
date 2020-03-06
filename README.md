@@ -41,6 +41,11 @@
 * [1103. Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)
 * [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
 
+
+### 面试题(leetcode)
+
+* [面试题57 - II. 和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)
+
 ### leetcode已解题列表：
 
 * 1.Two Sum
