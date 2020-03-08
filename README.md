@@ -42,6 +42,8 @@
 * [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
 * [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 * [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+* [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)
+* [https://leetcode.com/problems/coin-change/](https://leetcode.com/problems/coin-change/)
 
 
 ### 面试题(leetcode)
