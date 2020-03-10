@@ -10,16 +10,20 @@ import Foundation
 
 class DiameterOfBinaryTree {
   
-  func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
-    guard let root = root else { return 0 }
-    let l = helper(root.left)
-    let r = helper(root.right)
-    return max(l + r, max(diameterOfBinaryTree(root.left), diameterOfBinaryTree(root.right)))
+  func helper(_ root: TreeNode?) -> (Int, Int) {
+    guard let root = root else { return (0, 0) }
+    let (leftDepth, leftDiam) = helper(root.left)
+    let (rightDepth, rightDiam) = helper(root.right)
+    let depth = 1 + max(leftDepth, rightDepth)
+    return (depth, max(leftDiam, max(rightDiam, leftDepth + rightDepth)))
   }
   
-  func helper(_ root: TreeNode?) -> Int {
-    guard let root = root else { return 0 }
-    return 1 + max(helper(root.left), helper(root.right))
+  func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
+    guard let root = root else {
+      return 0
+    }
+    let res = helper(root)
+    return res.1
   }
   
   func test() {
