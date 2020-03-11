@@ -45,6 +45,7 @@
 * [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)
 * [https://leetcode.com/problems/coin-change/](https://leetcode.com/problems/coin-change/)
 * [337. House Robber III](https://leetcode.com/problems/house-robber-iii/)
+* [1013. Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)
 
 ### 面试题(leetcode)
 
