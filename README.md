@@ -47,6 +47,8 @@
 * [337. House Robber III](https://leetcode.com/problems/house-robber-iii/)
 * [1013. Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)
 * [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
+* [169. Majority Element](https://leetcode.com/problems/majority-element/)
+* [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/)
 
 ### 面试题(leetcode)
 
