@@ -49,6 +49,7 @@
 * [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
 * [169. Majority Element](https://leetcode.com/problems/majority-element/)
 * [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/)
+* [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
 
 ### 面试题(leetcode)
 
