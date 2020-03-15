@@ -50,6 +50,7 @@
 * [169. Majority Element](https://leetcode.com/problems/majority-element/)
 * [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/)
 * [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+* [695. 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)
 
 ### 面试题(leetcode)
 
