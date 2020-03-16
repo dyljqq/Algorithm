@@ -51,12 +51,14 @@
 * [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/)
 * [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
 * [695. 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)
+* [394. Decode String](https://leetcode.com/problems/decode-string/)
 
 ### 面试题(leetcode)
 
 * [面试题57 - II. 和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)
 * [面试题59 - II. 队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/)
 * [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
+* [面试题 01.06. 字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci/)
 
 ### leetcode已解题列表：
 
