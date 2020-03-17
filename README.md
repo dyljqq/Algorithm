@@ -52,6 +52,8 @@
 * [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
 * [695. 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)
 * [394. Decode String](https://leetcode.com/problems/decode-string/)
+* [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)
+* [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 
 ### 面试题(leetcode)
 
