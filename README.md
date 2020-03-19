@@ -56,6 +56,7 @@
 * [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 * [836. Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)
 * [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+* [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
 ### 面试题(leetcode)
 
@@ -63,6 +64,7 @@
 * [面试题59 - II. 队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/)
 * [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 * [面试题 01.06. 字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci/)
+* [409. 最长回文串](https://leetcode-cn.com/problems/longest-palindrome/)
 
 ### leetcode已解题列表：
 
