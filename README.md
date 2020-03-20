@@ -57,6 +57,7 @@
 * [836. Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)
 * [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 * [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+* [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
 
 ### 面试题(leetcode)
 
@@ -65,6 +66,7 @@
 * [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 * [面试题 01.06. 字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci/)
 * [409. 最长回文串](https://leetcode-cn.com/problems/longest-palindrome/)
+* [面试题40. 最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
 
 ### leetcode已解题列表：
 
