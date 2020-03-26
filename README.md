@@ -62,6 +62,7 @@
 * [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 * [1025. Divisor Game](https://leetcode.com/problems/divisor-game/)
 * [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+* [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 
 ### 面试题(leetcode)
 
@@ -73,6 +74,7 @@
 * [面试题40. 最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
 * [面试题 17.16. 按摩师](https://leetcode-cn.com/problems/the-masseuse-lcci/)
 * [892. Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/)
+* [999. 车的可用捕获量](https://leetcode-cn.com/problems/available-captures-for-rook/)
 
 ### leetcode已解题列表：
 
