@@ -63,6 +63,7 @@
 * [1025. Divisor Game](https://leetcode.com/problems/divisor-game/)
 * [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 * [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
+* [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
 ### 面试题(leetcode)
 
@@ -75,6 +76,7 @@
 * [面试题 17.16. 按摩师](https://leetcode-cn.com/problems/the-masseuse-lcci/)
 * [892. Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/)
 * [999. 车的可用捕获量](https://leetcode-cn.com/problems/available-captures-for-rook/)
+* [914. 卡牌分组](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/)
 
 ### leetcode已解题列表：
 
