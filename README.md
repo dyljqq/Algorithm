@@ -77,6 +77,7 @@
 * [892. Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/)
 * [999. 车的可用捕获量](https://leetcode-cn.com/problems/available-captures-for-rook/)
 * [914. 卡牌分组](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/)
+* [ShortEndingOfWords.swift](https://leetcode.com/problems/short-encoding-of-words/)
 
 ### leetcode已解题列表：
 
