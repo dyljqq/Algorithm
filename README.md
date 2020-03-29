@@ -64,6 +64,7 @@
 * [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 * [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 * [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+* [1162. As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)
 
 ### 面试题(leetcode)
 
