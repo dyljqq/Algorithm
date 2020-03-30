@@ -65,6 +65,8 @@
 * [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 * [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 * [1162. As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)
+* [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+* [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
 ### 面试题(leetcode)
 
