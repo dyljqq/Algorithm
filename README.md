@@ -67,6 +67,8 @@
 * [1162. As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)
 * [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 * [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+* [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+* [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 
 ### 面试题(leetcode)
 
@@ -82,6 +84,7 @@
 * [914. 卡牌分组](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/)
 * [ShortEndingOfWords.swift](https://leetcode.com/problems/short-encoding-of-words/)
 * [面试题62. 圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)
+* [912. 排序数组](https://leetcode-cn.com/problems/sort-an-array/)
 
 ### leetcode已解题列表：
 
