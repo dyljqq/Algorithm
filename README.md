@@ -69,6 +69,8 @@
 * [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 * [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 * [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
+* [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+* [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 
 ### 面试题(leetcode)
 
