@@ -87,6 +87,8 @@
 * [ShortEndingOfWords.swift](https://leetcode.com/problems/short-encoding-of-words/)
 * [面试题62. 圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)
 * [912. 排序数组](https://leetcode-cn.com/problems/sort-an-array/)
+* [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
+* [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
 
 ### leetcode已解题列表：
 
