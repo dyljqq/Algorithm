@@ -90,6 +90,10 @@
 * [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
 * [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
 
+### leetcode day 30
+
+* [Happy Number](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3284/)
+
 ### leetcode已解题列表：
 
 * 1.Two Sum
