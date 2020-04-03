@@ -71,6 +71,7 @@
 * [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 * [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 * [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+* [148. Sort List](https://leetcode.com/problems/sort-list/)
 
 ### 面试题(leetcode)
 
