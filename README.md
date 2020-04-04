@@ -72,6 +72,8 @@
 * [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 * [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 * [148. Sort List](https://leetcode.com/problems/sort-list/)
+* [139. Word Break](https://leetcode.com/problems/word-break/)
+* [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 
 ### 面试题(leetcode)
 
