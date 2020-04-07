@@ -76,6 +76,8 @@
 * [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 * [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 * [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+* [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
+* [221. Maximal Square](https://leetcode.com/problems/maximal-square/)
 
 ### 面试题(leetcode)
 
