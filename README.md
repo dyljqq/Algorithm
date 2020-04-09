@@ -96,6 +96,7 @@
 * [912. 排序数组](https://leetcode-cn.com/problems/sort-an-array/)
 * [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
 * [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
+* [55. Jump Game](https://leetcode.com/problems/jump-game/)
 
 ### leetcode day 30
 
@@ -104,6 +105,7 @@
 * [Best Time to Buy and Sell Stock II](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3287/)
 * [Group Anagrams](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3288/)
 * [Counting Elements](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3289/)
+* [ Middle of the Linked List](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3290/)
 
 ### leetcode已解题列表：
 
