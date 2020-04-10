@@ -78,6 +78,7 @@
 * [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
 * [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
 * [221. Maximal Square](https://leetcode.com/problems/maximal-square/)
+* [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
 
 ### 面试题(leetcode)
 
