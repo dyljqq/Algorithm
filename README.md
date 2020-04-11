@@ -79,6 +79,7 @@
 * [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
 * [221. Maximal Square](https://leetcode.com/problems/maximal-square/)
 * [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
+* [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
 ### 面试题(leetcode)
 
