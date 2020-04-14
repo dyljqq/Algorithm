@@ -112,6 +112,7 @@
 * [Backspace String Compare](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3291/)
 * [Last Stone Weight](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3297/)
 * [Contiguous Array](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3298/)
+* [Perform String Shifts](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3299/)
 
 ### leetcode已解题列表：
 
