@@ -80,6 +80,7 @@
 * [221. Maximal Square](https://leetcode.com/problems/maximal-square/)
 * [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
 * [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+* [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)
 
 ### 面试题(leetcode)
 
@@ -110,6 +111,7 @@
 * [ Middle of the Linked List](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3290/)
 * [Backspace String Compare](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3291/)
 * [Last Stone Weight](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3297/)
+* [Contiguous Array](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3298/)
 
 ### leetcode已解题列表：
 
