@@ -81,6 +81,7 @@
 * [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
 * [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 * [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)
+* [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
 ### 面试题(leetcode)
 
