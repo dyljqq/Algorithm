@@ -118,6 +118,7 @@
 * [ Valid Parenthesis String](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3301/)
 * [Minimum Path Sum](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3303/)
 * [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)
+* [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3305/)
 
 ### leetcode已解题列表：
 
