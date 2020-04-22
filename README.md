@@ -119,6 +119,7 @@
 * [Minimum Path Sum](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3303/)
 * [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)
 * [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3305/)
+* [Leftmost Column with at Least a One](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3306/)
 
 ### leetcode已解题列表：
 
