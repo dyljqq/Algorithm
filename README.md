@@ -83,6 +83,13 @@
 * [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)
 * [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
+
+### 30-Day LeetCoding Challenge
+
+##### Week 4
+
+[Longest Common Subsequence](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/531/week-4/3311/)
+
 ### 面试题(leetcode)
 
 * [面试题57 - II. 和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)
