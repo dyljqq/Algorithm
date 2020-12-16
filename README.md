@@ -89,6 +89,7 @@
 ##### Week 4
 
 [Longest Common Subsequence](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/531/week-4/3311/)
+[Binary Tree Maximum Path Sum](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/532/week-5/3314/)
 
 ### 面试题(leetcode)
 
