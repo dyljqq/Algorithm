@@ -105,6 +105,7 @@
 * [Kth Smallest Element in a BST](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/3335/)
 * [Sort Characters By Frequency](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/537/week-4-may-22nd-may-28th/3337/)
 * [First Bad Version](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3316/)
+* [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
 
 ### 面试题(leetcode)
 
