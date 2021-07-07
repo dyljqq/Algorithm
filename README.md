@@ -107,6 +107,7 @@
 * [First Bad Version](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3316/)
 * [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
 * [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/explore/challenge/card/june-leetcoding-challenge-2021/607/week-5-june-29th-june-30th/3797/)
+* [Reduce Array Size to The Half](https://leetcode.com/explore/featured/card/july-leetcoding-challenge-2021/608/week-1-july-1st-july-7th/3804/)
 
 ### 面试题(leetcode)
 
@@ -152,6 +153,7 @@
 * [Odd Even Linked List](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/3331/)
 * [Find All Anagrams in a String](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/3332/)
 * [Find K Closest Elements](https://leetcode.com/explore/featured/card/july-leetcoding-challenge-2021/608/week-1-july-1st-july-7th/3800/)
+* [Reshape the Matrix](https://leetcode.com/explore/featured/card/july-leetcoding-challenge-2021/608/week-1-july-1st-july-7th/3803/)
 
 ### leetcode已解题列表：
 
