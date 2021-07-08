@@ -108,6 +108,7 @@
 * [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
 * [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/explore/challenge/card/june-leetcoding-challenge-2021/607/week-5-june-29th-june-30th/3797/)
 * [Reduce Array Size to The Half](https://leetcode.com/explore/featured/card/july-leetcoding-challenge-2021/608/week-1-july-1st-july-7th/3804/)
+* [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/explore/featured/card/july-leetcoding-challenge-2021/608/week-1-july-1st-july-7th/3805/)
 
 ### 面试题(leetcode)
 
