@@ -110,6 +110,7 @@
 * [Reduce Array Size to The Half](https://leetcode.com/explore/featured/card/july-leetcoding-challenge-2021/608/week-1-july-1st-july-7th/3804/)
 * [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/explore/featured/card/july-leetcoding-challenge-2021/608/week-1-july-1st-july-7th/3805/)
 * [Maximum Length of Repeated Subarray](https://leetcode.com/explore/featured/card/july-leetcoding-challenge-2021/609/week-2-july-8th-july-14th/3807/)
+* [Longest Increasing Subsequence](https://leetcode.com/explore/featured/card/july-leetcoding-challenge-2021/609/week-2-july-8th-july-14th/3808/)
 
 ### 面试题(leetcode)
 
