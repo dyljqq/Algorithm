@@ -66,15 +66,17 @@ class ListNode {
 
 class Solution {
     func getKthFromEnd(_ head: ListNode?, _ k: Int) -> ListNode? {
-        var k = k, pre = head, lat = head
-        while pre != nil {
-            if k <= 0 {
-                lat = lat?.next
-            }
-            pre = pre?.next
+        var k = k, slow = head, fast = head
+        while k > 0 {
+            fast = fast?.next
             k = k - 1
         }
-        return lat
+        
+        while fast != nil {
+            fast = fast?.next
+            slow = slow?.next
+        }
+        return slow
     }
 }
 
