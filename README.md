@@ -114,6 +114,7 @@
 * [Decode Ways II](https://leetcode.com/explore/featured/card/july-leetcoding-challenge-2021/609/week-2-july-8th-july-14th/3809/)
 * [Find Median from Data Stream](https://leetcode.com/explore/featured/card/july-leetcoding-challenge-2021/609/week-2-july-8th-july-14th/3810/)
 * [Isomorphic Strings](https://leetcode.com/explore/featured/card/july-leetcoding-challenge-2021/609/week-2-july-8th-july-14th/3811/)
+* [Partition Array into Disjoint Intervals](https://leetcode.com/explore/challenge/card/july-leetcoding-challenge-2021/611/week-4-july-22nd-july-28th/3823/)
 
 ### 面试题(leetcode)
 
