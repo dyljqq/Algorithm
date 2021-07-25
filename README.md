@@ -82,6 +82,7 @@
 * [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 * [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)
 * [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+* [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
 
 ### 30-Day LeetCoding Challenge
