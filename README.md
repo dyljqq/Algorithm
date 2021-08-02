@@ -2,6 +2,10 @@
 
 主要记录我每天做的题目，包括leetcode， 剑指offer等在线编程平台，以前做过的等时间够再一起分享。
 
+### Leetcode Challenge (beat 100% yeah!)
+
+[Two Sum](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/613/week-1-august-1st-august-7th/3836/)
+
 ### 使用swift解题
 
 * [Two Sum](https://leetcode.com/problems/two-sum/description/)
