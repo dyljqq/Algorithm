@@ -12,6 +12,7 @@
 * [N-ary Tree Level Order Traversal](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/613/week-1-august-1st-august-7th/3871/)
 * [15. 3Sum](https://leetcode.com/problems/3sum/)
 * [18. 4Sum](https://leetcode.com/problems/4sum/)
+* [Stone Game](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/613/week-1-august-1st-august-7th/3870/)
 
 ### 使用swift解题
 
