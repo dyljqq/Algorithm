@@ -13,6 +13,7 @@
 * [15. 3Sum](https://leetcode.com/problems/3sum/)
 * [18. 4Sum](https://leetcode.com/problems/4sum/)
 * [Stone Game](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/613/week-1-august-1st-august-7th/3870/)
+* [Add Strings](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/614/week-2-august-8th-august-14th/3875/)
 
 ### 使用swift解题
 
