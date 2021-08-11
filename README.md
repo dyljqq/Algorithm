@@ -15,6 +15,7 @@
 * [Stone Game](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/613/week-1-august-1st-august-7th/3870/)
 * [Add Strings](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/614/week-2-august-8th-august-14th/3875/)
 * [55. Jump Game](https://leetcode.com/problems/jump-game/)
+* [Flip String to Monotone Increasing](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/614/week-2-august-8th-august-14th/3876/)
 
 ### 使用swift解题
 
