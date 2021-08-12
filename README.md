@@ -16,6 +16,7 @@
 * [Add Strings](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/614/week-2-august-8th-august-14th/3875/)
 * [55. Jump Game](https://leetcode.com/problems/jump-game/)
 * [Flip String to Monotone Increasing](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/614/week-2-august-8th-august-14th/3876/)
+* [Array of Doubled Pairs](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/614/week-2-august-8th-august-14th/3877/)
 
 ### 使用swift解题
 
