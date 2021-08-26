@@ -20,6 +20,7 @@
 * [Two Sum IV - Input is a BST](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3908/)
 * [Complex Number Multiplication](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3917/)
 * [Sum of Square Numbers](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3918/)
+* [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3920/)
 
 ### 使用swift解题
 
