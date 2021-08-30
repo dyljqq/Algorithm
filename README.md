@@ -16,11 +16,7 @@
 * [Add Strings](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/614/week-2-august-8th-august-14th/3875/)
 * [55. Jump Game](https://leetcode.com/problems/jump-game/)
 * [Flip String to Monotone Increasing](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/614/week-2-august-8th-august-14th/3876/)
-* [Array of Doubled Pairs](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/614/week-2-august-8th-august-14th/3877/)
-* [Two Sum IV - Input is a BST](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3908/)
-* [Complex Number Multiplication](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3917/)
-* [Sum of Square Numbers](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3918/)
-* [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3920/)
+* [Range Addition II](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/617/week-5-august-29th-august-31st/3957/)
 
 ### 使用swift解题
 
