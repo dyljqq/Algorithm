@@ -24,6 +24,7 @@
 * [Sum of Square Numbers](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3918/)
 * [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3920/)
 * [Array Nesting](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3960/)
+* [Reverse Linked List](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3966/)
 
 ### 使用swift解题
 
