@@ -109,6 +109,7 @@
 * [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 * [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 * [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+* [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 
 
 ### 30-Day LeetCoding Challenge
