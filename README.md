@@ -25,6 +25,7 @@
 * [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3920/)
 * [Array Nesting](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3960/)
 * [Reverse Linked List](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3966/)
+* [Intersection of Two Arrays II](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/638/week-3-september-15th-september-21st/3978/)
 
 ### 使用swift解题
 
@@ -111,6 +112,7 @@
 * [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 * [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 * [112. Path Sum](https://leetcode.com/problems/path-sum/)
+* [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 
 
 ### 30-Day LeetCoding Challenge
