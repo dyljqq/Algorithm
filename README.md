@@ -26,6 +26,7 @@
 * [Array Nesting](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3960/)
 * [Reverse Linked List](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3966/)
 * [Intersection of Two Arrays II](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/638/week-3-september-15th-september-21st/3978/)
+* [Max Consecutive Ones](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/638/week-3-september-15th-september-21st/3982/)
 
 ### 使用swift解题
 
@@ -113,6 +114,7 @@
 * [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 * [112. Path Sum](https://leetcode.com/problems/path-sum/)
 * [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+* [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
 
 
 ### 30-Day LeetCoding Challenge
