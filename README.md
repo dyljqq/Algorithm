@@ -116,6 +116,7 @@
 * [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 * [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
 * [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+* [N-th Tribonacci Number](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/639/week-4-september-22nd-september-28th/3986/)
 
 
 ### 30-Day LeetCoding Challenge
