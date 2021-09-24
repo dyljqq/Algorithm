@@ -27,6 +27,7 @@
 * [Reverse Linked List](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3966/)
 * [Intersection of Two Arrays II](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/638/week-3-september-15th-september-21st/3978/)
 * [Max Consecutive Ones](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/638/week-3-september-15th-september-21st/3982/)
+* [N-th Tribonacci Number](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/639/week-4-september-22nd-september-28th/3986/)
 
 ### 使用swift解题
 
@@ -116,7 +117,7 @@
 * [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 * [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
 * [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-* [N-th Tribonacci Number](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/639/week-4-september-22nd-september-28th/3986/)
+* [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
 
 ### 30-Day LeetCoding Challenge
