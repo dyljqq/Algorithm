@@ -27,11 +27,8 @@
 * [Reverse Linked List](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3966/)
 * [Intersection of Two Arrays II](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/638/week-3-september-15th-september-21st/3978/)
 * [Max Consecutive Ones](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/638/week-3-september-15th-september-21st/3982/)
-* [N-th Tribonacci Number](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/639/week-4-september-22nd-september-28th/3986/)
-* [Unique Email Addresses](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/639/week-4-september-22nd-september-28th/3989/)
-* [Sort Array By Parity II](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/639/week-4-september-22nd-september-28th/3990/)
-* [Split Linked List in Parts](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/640/week-5-september-29th-september-30th/3992/)
 * [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+* [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 
 ### 使用swift解题
 
@@ -121,9 +118,6 @@
 * [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 * [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
 * [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-* [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
-* [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-* [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
 
 
 ### 30-Day LeetCoding Challenge
