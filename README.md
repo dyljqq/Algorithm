@@ -31,6 +31,7 @@
 * [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 * [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 * [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)
+* [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 
 ### 使用swift解题
 
