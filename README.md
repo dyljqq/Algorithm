@@ -34,6 +34,7 @@
 * [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 * [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
 * [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+* [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 
 ### 使用swift解题
 
