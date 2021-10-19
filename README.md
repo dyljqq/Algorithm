@@ -36,6 +36,7 @@
 * [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
 * [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 * [993. Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)
+* [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
 
 ### 使用swift解题
 
