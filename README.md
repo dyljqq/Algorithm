@@ -131,6 +131,7 @@
 * [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
 * [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 * [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)
+* [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
 
 
 ### 30-Day LeetCoding Challenge
