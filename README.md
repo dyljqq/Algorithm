@@ -37,6 +37,7 @@
 * [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 * [993. Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)
 * [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+* [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 
 ### 使用swift解题
 
