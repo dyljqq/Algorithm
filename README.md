@@ -39,6 +39,7 @@
 * [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
 * [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 * [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
+* [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
 
 ### 使用swift解题
 
