@@ -41,6 +41,7 @@
 * [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
 * [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
 * [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+* [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 
 ### 使用swift解题
 
