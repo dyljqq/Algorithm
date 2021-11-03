@@ -42,6 +42,8 @@
 * [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
 * [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 * [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+* [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+* [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 
 ### 使用swift解题
 
@@ -137,6 +139,7 @@
 * [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 * [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)
 * [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
+* [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
 
 
 ### 30-Day LeetCoding Challenge
