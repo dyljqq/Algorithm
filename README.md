@@ -44,6 +44,7 @@
 * [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 * [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
 * [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+* [260. Single Number III](https://leetcode.com/problems/single-number-iii/)
 
 ### 使用swift解题
 
