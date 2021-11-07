@@ -36,15 +36,7 @@
 * [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
 * [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 * [993. Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)
-* [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
-* [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
-* [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
-* [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
-* [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
-* [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
-* [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
-* [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
-* [260. Single Number III](https://leetcode.com/problems/single-number-iii/)
+* [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 
 ### 使用swift解题
 
@@ -139,8 +131,6 @@
 * [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
 * [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 * [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)
-* [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
-* [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
 
 
 ### 30-Day LeetCoding Challenge
@@ -284,8 +274,3 @@
 
 * [面试题 08.11. 硬币](https://leetcode-cn.com/problems/coin-lcci/)
 * [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
-
-
-
-
-
