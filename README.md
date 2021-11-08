@@ -37,6 +37,16 @@
 * [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 * [993. Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)
 * [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
+* [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+* [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
+* [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
+* [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
+* [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+* [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+* [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+* [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+* [260. Single Number III](https://leetcode.com/problems/single-number-iii/)
+* [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
 
 ### 使用swift解题
 
