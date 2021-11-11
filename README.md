@@ -49,6 +49,7 @@
 * [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
 * [228. Summary Ranges](https://leetcode.com/problems/summary-ranges/)
 * [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+* [1413. Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)
 
 ### 使用swift解题
 
