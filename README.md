@@ -53,6 +53,7 @@
 * [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 * [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 * [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)
+* [668. Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)
 
 ### 使用swift解题
 
