@@ -54,6 +54,7 @@
 * [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 * [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)
 * [668. Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)
+* [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 
 ### 使用swift解题
 
