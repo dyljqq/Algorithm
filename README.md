@@ -56,6 +56,7 @@
 * [668. Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)
 * [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 * [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+* [461. Hamming Distance](https://leetcode.com/problems/hamming-distance/)
 
 ### 使用swift解题
 
