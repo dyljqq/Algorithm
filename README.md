@@ -58,6 +58,7 @@
 * [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 * [461. Hamming Distance](https://leetcode.com/problems/hamming-distance/)
 * [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
+* [952. Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)
 
 ### 使用swift解题
 
