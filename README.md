@@ -80,14 +80,13 @@
 * [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 * [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 * [1015. Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)
-* [312. Burst Balloons
-](https://leetcode.com/problems/burst-balloons/)
+* [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)
 * [1010. Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)
 * [1094. Car Pooling](https://leetcode.com/problems/car-pooling/)
 * [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
 * [134. Gas Station](https://leetcode.com/problems/gas-station/)
-* [211. Design Add and Search Words Data Structure
-](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+* [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+* [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)
 
 ### 使用swift解题
 
