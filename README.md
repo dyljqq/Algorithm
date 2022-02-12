@@ -87,6 +87,7 @@
 * [134. Gas Station](https://leetcode.com/problems/gas-station/)
 * [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 * [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+* [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 
 ### 使用swift解题
 
