@@ -182,9 +182,9 @@
 * [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
 * [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 * [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)
-* [849. Maximize Distance to Closest Person
-](https://leetcode.com/problems/maximize-distance-to-closest-person/)
+* [849. Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)
 * [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+* [78. Subsets](https://leetcode.com/problems/subsets/)
 
 
 ### 30-Day LeetCoding Challenge
