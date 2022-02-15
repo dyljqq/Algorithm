@@ -88,6 +88,7 @@
 * [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)
 * [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 * [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+* [136. Single Number](https://leetcode.com/problems/single-number/)
 
 ### 使用swift解题
 
