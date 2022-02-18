@@ -90,6 +90,7 @@
 * [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 * [136. Single Number](https://leetcode.com/problems/single-number/)
 * [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+* [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/)
 
 ### 使用swift解题
 
