@@ -188,6 +188,7 @@
 * [849. Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)
 * [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 * [78. Subsets](https://leetcode.com/problems/subsets/)
+* [169. Majority Element](https://leetcode.com/problems/majority-element/)
 
 
 ### 30-Day LeetCoding Challenge
