@@ -92,6 +92,7 @@
 * [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
 * [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/)
 * [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)
+* [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)
 
 ### 使用swift解题
 
