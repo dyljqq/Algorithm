@@ -94,6 +94,7 @@
 * [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)
 * [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)
 * [71. Simplify Path](https://leetcode.com/problems/simplify-path/)
+* [946. Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)
 
 ### 使用swift解题
 
