@@ -95,6 +95,7 @@
 * [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)
 * [71. Simplify Path](https://leetcode.com/problems/simplify-path/)
 * [946. Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)
+* [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
 
 ### 使用swift解题
 
