@@ -99,6 +99,7 @@
 * [342. Power of Four](https://leetcode.com/problems/power-of-four/)
 * [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 * [326. Power of Three](https://leetcode.com/problems/power-of-three/)
+* [383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 
 ### 使用swift解题
 
