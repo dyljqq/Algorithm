@@ -109,6 +109,7 @@
 * [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
 * [967. Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)
 * [1582. Special Positions in a Binary Matrix](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/)
+* [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)
 
 ### 使用swift解题
 
