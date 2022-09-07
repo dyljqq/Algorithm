@@ -111,6 +111,7 @@
 * [1582. Special Positions in a Binary Matrix](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/)
 * [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)
 * [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)
+* [1592. Rearrange Spaces Between Words](https://leetcode.cn/problems/rearrange-spaces-between-words/)
 
 ### 使用swift解题
 
