@@ -114,6 +114,7 @@
 * [1592. Rearrange Spaces Between Words](https://leetcode.cn/problems/rearrange-spaces-between-words/)
 * [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 * [1996. The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)
+* [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 ### 使用swift解题
 
