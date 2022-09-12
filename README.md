@@ -1,8 +1,12 @@
-#算法解题报告
+# 算法解题报告
 
 主要记录我每天做的题目，包括leetcode， 剑指offer等在线编程平台，以前做过的等时间够再一起分享。
 
 ### Leetcode Challenge (beat 100% yeah!)
+
+### Hot 100
+
+* [5. Longest Palindromic Substring](https://leetcode.cn/problems/longest-palindromic-substring/)
 
 #### August
 * [Two Sum](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/613/week-1-august-1st-august-7th/3836/)
