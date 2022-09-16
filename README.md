@@ -8,6 +8,8 @@
 
 * [5. Longest Palindromic Substring](https://leetcode.cn/problems/longest-palindromic-substring/)
 * [11. Container With Most Water](https://leetcode.cn/problems/container-with-most-water/)
+* [15. 3Sum](https://leetcode.cn/problems/3sum/)
+* [17. Letter Combinations of a Phone Number](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/)
 
 #### August
 * [Two Sum](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/613/week-1-august-1st-august-7th/3836/)
