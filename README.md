@@ -13,6 +13,7 @@
 * [19. Remove Nth Node From End of List](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
 * [7. Reverse Integer](https://leetcode.cn/problems/reverse-integer)
 * [8. String to Integer (atoi)](https://leetcode.cn/problems/string-to-integer-atoi/)
+* [14. Longest Common Prefix](https://leetcode.cn/problems/longest-common-prefix/)
 
 #### August
 * [Two Sum](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/613/week-1-august-1st-august-7th/3836/)
