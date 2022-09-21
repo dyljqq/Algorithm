@@ -15,6 +15,7 @@
 * [8. String to Integer (atoi)](https://leetcode.cn/problems/string-to-integer-atoi/)
 * [14. Longest Common Prefix](https://leetcode.cn/problems/longest-common-prefix/)
 * [20. Valid Parentheses](https://leetcode.cn/problems/valid-parentheses/)
+* [21. Merge Two Sorted Lists](https://leetcode.cn/problems/merge-two-sorted-lists/)
 
 #### August
 * [Two Sum](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/613/week-1-august-1st-august-7th/3836/)
