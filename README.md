@@ -16,6 +16,7 @@
 * [14. Longest Common Prefix](https://leetcode.cn/problems/longest-common-prefix/)
 * [20. Valid Parentheses](https://leetcode.cn/problems/valid-parentheses/)
 * [21. Merge Two Sorted Lists](https://leetcode.cn/problems/merge-two-sorted-lists/)
+* [22. Generate Parentheses](https://leetcode.cn/problems/generate-parentheses/)
 
 #### August
 * [Two Sum](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/613/week-1-august-1st-august-7th/3836/)
