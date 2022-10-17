@@ -137,6 +137,7 @@
 * [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 * [1441. 用栈操作构建数组](https://leetcode.cn/problems/build-an-array-with-stack-operations/)
 * [886. 可能的二分法](https://leetcode.cn/problems/possible-bipartition/)
+* [904. Fruit Into Baskets](https://leetcode.cn/problems/fruit-into-baskets/)
 
 ### 使用swift解题
 
