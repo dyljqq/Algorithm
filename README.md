@@ -388,3 +388,4 @@
 
 * [面试题 08.11. 硬币](https://leetcode-cn.com/problems/coin-lcci/)
 * [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
+* [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/)
