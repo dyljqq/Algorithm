@@ -139,6 +139,7 @@
 * [1441. 用栈操作构建数组](https://leetcode.cn/problems/build-an-array-with-stack-operations/)
 * [886. 可能的二分法](https://leetcode.cn/problems/possible-bipartition/)
 * [904. Fruit Into Baskets](https://leetcode.cn/problems/fruit-into-baskets/)
+* [901. 股票价格跨度](https://leetcode.cn/problems/online-stock-span/)
 
 ### 使用swift解题
 
