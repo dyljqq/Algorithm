@@ -142,6 +142,7 @@
 * [904. Fruit Into Baskets](https://leetcode.cn/problems/fruit-into-baskets/)
 * [901. 股票价格跨度](https://leetcode.cn/problems/online-stock-span/)
 * [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/)
+* [1662. Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
 
 ### 使用swift解题
 
