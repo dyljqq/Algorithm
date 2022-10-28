@@ -1,5 +1,7 @@
 # 算法解题报告
 
+test1
+
 主要记录我每天做的题目，包括leetcode， 剑指offer等在线编程平台，以前做过的等时间够再一起分享。
 
 ### Leetcode Challenge (beat 100% yeah!)
