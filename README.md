@@ -152,6 +152,7 @@ test2
 * [766. Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)
 * [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)
 * [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)
+* [1323. Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)
 
 ### 使用swift解题
 
