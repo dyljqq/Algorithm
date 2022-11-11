@@ -156,6 +156,7 @@ test2
 * [1544. Make The String Great](https://leetcode.com/problems/make-the-string-great/)
 * [901. Online Stock Span](https://leetcode.com/problems/online-stock-span/)
 * [1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+* [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
 ### 使用swift解题
 
