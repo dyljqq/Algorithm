@@ -158,6 +158,7 @@ test2
 * [1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
 * [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 * [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
+* [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
 
 ### 使用swift解题
 
