@@ -161,6 +161,7 @@ test2
 * [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
 * [792. 匹配子序列的单词数](https://leetcode.cn/problems/number-of-matching-subsequences/)
 * [263. Ugly Number](https://leetcode.com/problems/ugly-number/)
+* [1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)
 
 ### 使用swift解题
 
