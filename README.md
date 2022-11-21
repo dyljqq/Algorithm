@@ -1,7 +1,5 @@
 # 算法解题报告
 
-test1
-
 主要记录我每天做的题目，包括leetcode， 剑指offer等在线编程平台，以前做过的等时间够再一起分享。
 
 ### Leetcode Challenge (beat 100% yeah!)
@@ -162,6 +160,8 @@ test2
 * [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
 * [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
 * [792. 匹配子序列的单词数](https://leetcode.cn/problems/number-of-matching-subsequences/)
+* [263. Ugly Number](https://leetcode.com/problems/ugly-number/)
+* [1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)
 
 ### 使用swift解题
 
