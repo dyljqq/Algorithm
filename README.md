@@ -162,6 +162,7 @@ test2
 * [792. 匹配子序列的单词数](https://leetcode.cn/problems/number-of-matching-subsequences/)
 * [263. Ugly Number](https://leetcode.com/problems/ugly-number/)
 * [1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)
+* [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 
 ### 使用swift解题
 
