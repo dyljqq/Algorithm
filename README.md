@@ -163,6 +163,8 @@ test2
 * [263. Ugly Number](https://leetcode.com/problems/ugly-number/)
 * [1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)
 * [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
+* [1742. 盒子中小球的最大数量](https://leetcode.cn/problems/maximum-number-of-balls-in-a-box/)
+* [670. Maximum Swap](https://leetcode.com/problems/maximum-swap/)
 
 ### 使用swift解题
 
