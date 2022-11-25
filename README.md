@@ -165,6 +165,7 @@ test2
 * [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 * [1742. 盒子中小球的最大数量](https://leetcode.cn/problems/maximum-number-of-balls-in-a-box/)
 * [670. Maximum Swap](https://leetcode.com/problems/maximum-swap/)
+* [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)
 
 ### 使用swift解题
 
