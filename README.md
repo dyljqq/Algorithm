@@ -166,6 +166,7 @@ test2
 * [1742. 盒子中小球的最大数量](https://leetcode.cn/problems/maximum-number-of-balls-in-a-box/)
 * [670. Maximum Swap](https://leetcode.com/problems/maximum-swap/)
 * [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)
+* [1752. 检查数组是否经排序和轮转得到](https://leetcode.cn/problems/check-if-array-is-sorted-and-rotated/)
 
 ### 使用swift解题
 
