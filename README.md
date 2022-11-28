@@ -4,8 +4,6 @@
 
 ### Leetcode Challenge (beat 100% yeah!)
 
-test2
-
 ### Hot 100
 
 * [5. Longest Palindromic Substring](https://leetcode.cn/problems/longest-palindromic-substring/)
@@ -167,6 +165,7 @@ test2
 * [670. Maximum Swap](https://leetcode.com/problems/maximum-swap/)
 * [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)
 * [1752. 检查数组是否经排序和轮转得到](https://leetcode.cn/problems/check-if-array-is-sorted-and-rotated/)
+* [2225. Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/)
 
 ### 使用swift解题
 
