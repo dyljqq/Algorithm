@@ -166,6 +166,7 @@
 * [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)
 * [1752. 检查数组是否经排序和轮转得到](https://leetcode.cn/problems/check-if-array-is-sorted-and-rotated/)
 * [2225. Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/)
+* [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 
 ### 使用swift解题
 
