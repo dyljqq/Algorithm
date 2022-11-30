@@ -168,6 +168,7 @@
 * [2225. Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/)
 * [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 * [1073. Adding Two Negabinary Numbers](https://leetcode.com/problems/adding-two-negabinary-numbers/)
+* [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
 
 ### 使用swift解题
 
