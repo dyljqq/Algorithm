@@ -175,6 +175,7 @@
 * [2256. Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)
 * [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 * [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/)
+* [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)
 
 ### 使用swift解题
 
