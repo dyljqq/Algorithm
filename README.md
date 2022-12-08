@@ -177,6 +177,7 @@
 * [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/)
 * [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)
 * [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/description/)
+* [46. Permutations](https://leetcode.com/problems/permutations/description/)
 
 ### 使用swift解题
 
