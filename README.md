@@ -189,6 +189,7 @@
 * [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)
 * [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 * [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)
+* [55. Jump Game](https://leetcode.com/problems/jump-game/description/)
 
 ### 使用swift解题
 
