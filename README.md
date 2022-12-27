@@ -190,6 +190,7 @@
 * [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 * [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)
 * [55. Jump Game](https://leetcode.com/problems/jump-game/description/)
+* [2279. Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/description/)
 
 ### 使用swift解题
 
