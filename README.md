@@ -192,6 +192,7 @@
 * [55. Jump Game](https://leetcode.com/problems/jump-game/description/)
 * [2279. Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/description/)
 * [520. Detect Capital](https://leetcode.com/problems/detect-capital/description/)
+* [944. Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/description/)
 
 ### 使用swift解题
 
