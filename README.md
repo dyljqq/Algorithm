@@ -193,6 +193,7 @@
 * [2279. Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/description/)
 * [520. Detect Capital](https://leetcode.com/problems/detect-capital/description/)
 * [944. Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/description/)
+* [2244. Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/)
 
 ### 使用swift解题
 
