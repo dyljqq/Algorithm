@@ -213,6 +213,7 @@
 * [77. Combinations](https://leetcode.com/problems/combinations/)
 * [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
 * [2433. Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)
+* [2265. Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)
 
 ### 使用swift解题
 
