@@ -216,6 +216,7 @@
 * [2265. Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)
 * [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 * [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)
+* [2264. Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)
 
 ### 使用swift解题
 
