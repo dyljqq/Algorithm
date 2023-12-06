@@ -218,6 +218,7 @@
 * [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)
 * [2264. Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)
 * [1688. Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)
+* [1716. Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)
 
 ### 使用swift解题
 
