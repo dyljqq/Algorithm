@@ -221,6 +221,7 @@
 * [1716. Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)
 * [1903. Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)
 * [1464. Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)
+* [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)
 
 ### 使用swift解题
 
