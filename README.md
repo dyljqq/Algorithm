@@ -222,6 +222,7 @@
 * [1903. Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)
 * [1464. Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)
 * [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)
+* [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)
 
 ### 使用swift解题
 
