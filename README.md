@@ -224,6 +224,7 @@
 * [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)
 * [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)
 * [1436. Destination City](https://leetcode.com/problems/destination-city/)
+* [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 
 ### 使用swift解题
 
