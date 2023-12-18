@@ -225,6 +225,7 @@
 * [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)
 * [1436. Destination City](https://leetcode.com/problems/destination-city/)
 * [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+* [1913. Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)
 
 ### 使用swift解题
 
