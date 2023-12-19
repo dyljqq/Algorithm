@@ -226,6 +226,7 @@
 * [1436. Destination City](https://leetcode.com/problems/destination-city/)
 * [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 * [1913. Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)
+* [661. Image Smoother](https://leetcode.com/problems/image-smoother/)
 
 ### 使用swift解题
 
