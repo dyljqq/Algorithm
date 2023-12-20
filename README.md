@@ -227,6 +227,7 @@
 * [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 * [1913. Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)
 * [661. Image Smoother](https://leetcode.com/problems/image-smoother/)
+* [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)
 
 ### 使用swift解题
 
