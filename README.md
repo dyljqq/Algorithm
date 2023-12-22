@@ -229,6 +229,7 @@
 * [661. Image Smoother](https://leetcode.com/problems/image-smoother/)
 * [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)
 * [1637. Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)
+* [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/?envType=daily-question&envId=2023-12-22)
 
 ### 使用swift解题
 
