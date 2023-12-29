@@ -235,6 +235,8 @@
 * [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
 * [1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)
 * [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)
+* [1531. String Compression II](https://leetcode.com/problems/string-compression-ii/)
+* [1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 
 ### 使用swift解题
 
