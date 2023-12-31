@@ -238,6 +238,7 @@
 * [1531. String Compression II](https://leetcode.com/problems/string-compression-ii/)
 * [1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 * [1897. Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)
+* [1624. Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)
 
 ### 使用swift解题
 
