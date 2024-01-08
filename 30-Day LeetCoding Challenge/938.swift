@@ -2,28 +2,30 @@
 //  938.swift
 //  Leetcode
 //
-//  Created by jiqinqiang on 2022/12/7.
+//  Created by polaris dev on 2024/1/8.
 //
 
 import Foundation
 
-class Leetcode938 {
-  
-  var total: Int = 0
-  
-  func rangeSumBST(_ root: TreeNode?, _ low: Int, _ high: Int) -> Int {
-    guard let root = root else { return 0 }
+class Solution938 {
     
-    if root.val >= low && root.val <= high {
-      total += root.val
-      rangeSumBST(root.left, low, high)
-      rangeSumBST(root.right, low, high)
-    } else if root.val < low {
-      rangeSumBST(root.right, low, high)
-    } else {
-      rangeSumBST(root.left, low, high)
+    func dfs(_ root: TreeNode?, _ low: Int, _ high: Int, sum: inout Int) {
+        guard let root else { return }
+        let val = root.val
+        if val >= low, val <= high {
+            sum += val
+            dfs(root.left, low, high, sum: &sum)
+            dfs(root.right, low, high, sum: &sum)
+        } else if val < low {
+            dfs(root.right, low, high, sum: &sum)
+        } else {
+            dfs(root.left, low, high, sum: &sum)
+        }
     }
     
-    return total
-  }
+    func rangeSumBST(_ root: TreeNode?, _ low: Int, _ high: Int) -> Int {
+        var sum = 0
+        dfs(root, low, high, sum: &sum)
+        return sum
+    }
 }
