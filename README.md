@@ -244,6 +244,7 @@
 * [2870. Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)
 * [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 * [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
+* [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)
 
 ### 使用swift解题
 

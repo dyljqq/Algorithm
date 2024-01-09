@@ -2,26 +2,27 @@
 //  872.swift
 //  Leetcode
 //
-//  Created by jiqinqiang on 2022/12/8.
+//  Created by polaris dev on 2024/1/9.
 //
 
 import Foundation
 
-class Leetcode872 {
-  
-  func findLeafs(_ root: TreeNode?, rs: inout [Int]) {
-    guard let root = root else { return }
-    if root.left == nil && root.right == nil {
-      rs.append(root.val)
+class Solution872 {
+    
+    func fetchLeaves(on root: TreeNode?) -> [Int] {
+        guard let root else { return [] }
+        var values: [Int] = []
+        values += fetchLeaves(on: root.left)
+        if root.left == nil && root.right == nil {
+            values.append(root.val)
+        }
+        values += fetchLeaves(on: root.right)
+        return values
     }
-    findLeafs(root.left, rs: &rs)
-    findLeafs(root.right, rs: &rs)
-  }
-  
-  func leafSimilar(_ root1: TreeNode?, _ root2: TreeNode?) -> Bool {
-    var rs1: [Int] = [], rs2: [Int] = []
-    findLeafs(root1, rs: &rs1)
-    findLeafs(root2, rs: &rs2)
-    return rs1 == rs2
-  }
+    
+    func leafSimilar(_ root1: TreeNode?, _ root2: TreeNode?) -> Bool {
+        let v1 = fetchLeaves(on: root1)
+        let v2 = fetchLeaves(on: root2)
+        return v1 == v2
+    }
 }
