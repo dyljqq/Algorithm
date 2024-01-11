@@ -246,6 +246,7 @@
 * [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
 * [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)
 * [2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)
+* [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)
 
 ### 使用swift解题
 
