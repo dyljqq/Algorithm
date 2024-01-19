@@ -2,37 +2,36 @@
 //  380.swift
 //  Leetcode
 //
-//  Created by jiqinqiang on 2022/11/29.
+//  Created by polaris dev on 2024/1/16.
 //
 
 import Foundation
 
 class RandomizedSet {
-  
-  var set = Set<Int>()
-  
-  init() {
     
-  }
-  
-  func insert(_ val: Int) -> Bool {
-    let isPresent = set.contains(val)
-    if !isPresent {
-      set.insert(val)
+    private var set = Set<Int>()
+
+    init() {
+        set = Set<Int>()
     }
-    return !isPresent
-  }
-  
-  func remove(_ val: Int) -> Bool {
-    let isPresent = set.contains(val)
-    if isPresent {
-      set.remove(val)
+    
+    func insert(_ val: Int) -> Bool {
+        if set.contains(val) {
+            return false
+        }
+        set.insert(val)
+        return true
     }
-    return isPresent
-  }
-  
-  func getRandom() -> Int {
-    guard !set.isEmpty, let ram = set.randomElement() else { return -1 }
-    return ram
-  }
+    
+    func remove(_ val: Int) -> Bool {
+        if set.contains(val) {
+            set.remove(val)
+            return true
+        }
+        return false
+    }
+    
+    func getRandom() -> Int {
+        return set.randomElement() ?? -1
+    }
 }

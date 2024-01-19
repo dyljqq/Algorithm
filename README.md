@@ -48,7 +48,6 @@
 * [Reverse Linked List](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3966/)
 * [Intersection of Two Arrays II](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/638/week-3-september-15th-september-21st/3978/)
 * [Max Consecutive Ones](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/638/week-3-september-15th-september-21st/3982/)
-* [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 * [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 * [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 * [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)
@@ -182,7 +181,6 @@
 * [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/)
 * [1339. Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/description/)
 * [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
-* [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)
 * [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)
 * [198. House Robber](https://leetcode.com/problems/house-robber/description/)
 * [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)
@@ -248,6 +246,10 @@
 * [2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)
 * [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)
 * [2225. Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/)
+* [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
+* [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
+* [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+* [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)
 
 ### 使用swift解题
 
