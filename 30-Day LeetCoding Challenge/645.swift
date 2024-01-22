@@ -2,28 +2,26 @@
 //  645.swift
 //  Leetcode
 //
-//  Created by jiqinqiang on 2022/10/23.
+//  Created by polaris dev on 2024/1/22.
 //
 
 import Foundation
 
-class Leetcode645 {
-  
-  func findErrorNums(_ nums: [Int]) -> [Int] {
-    var hash: [Int: Int] = [:]
-    for num in nums {
-      hash[num, default: 0] += 1
+class Solution645 {
+    func findErrorNums(_ nums: [Int]) -> [Int] {
+        var dup = -1, sum = 0, nums = nums
+        for i in 0..<nums.count {
+            if nums[abs(nums[i]) - 1] < 0 {
+                dup = abs(nums[i])
+            } else {
+                nums[abs(nums[i]) - 1] *= -1
+            }
+            sum += i + 1 - abs(nums[i])
+        }
+        return [dup, sum + dup]
     }
     
-    var rs: [Int] = Array(repeating: 0, count: 2)
-    for i in 1...nums.count {
-      if let v = hash[i], v == 2 {
-        rs[0] = i
-      } else if hash[i] == nil {
-        rs[1] = i
-      }
+    func test() {
+        print(findErrorNums([1,2,2,4]))
     }
-    return rs
-  }
-  
 }
