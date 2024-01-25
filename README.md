@@ -183,7 +183,6 @@
 * [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
 * [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)
 * [198. House Robber](https://leetcode.com/problems/house-robber/description/)
-* [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)
 * [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)
 * [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 * [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)
@@ -253,6 +252,7 @@
 * [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/)
 * [1239. Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)
 * [1457. Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)
+* [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 
 ### 使用swift解题
 
