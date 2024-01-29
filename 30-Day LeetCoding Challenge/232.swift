@@ -2,42 +2,69 @@
 //  232.swift
 //  Leetcode
 //
-//  Created by jiqinqiang on 2022/12/16.
+//  Created by polaris dev on 2024/1/29.
 //
 
 import Foundation
 
 class MyQueue {
-  
-  private var arr: [Int] = []
-  private var backup: [Int] = []
-  
-  init() {
     
-  }
-  
-  func push(_ x: Int) {
-    arr.append(x)
-  }
-  
-  func pop() -> Int {
-    if backup.isEmpty {
-      backup.append(contentsOf: arr.reversed())
-      arr = []
+    class Stack {
+        
+        private var array: [Int] = []
+        
+        init() {
+            
+        }
+        
+        func push(_ x: Int) {
+            array.append(x)
+        }
+        
+        func pop() -> Int? {
+            guard !array.isEmpty else { return nil }
+            return array.removeLast()
+        }
+        
+        var isEmpty: Bool {
+            return array.isEmpty
+        }
+        
+        func top() -> Int? {
+            return array.last
+        }
     }
-    guard !backup.isEmpty else { return 0 }
-    return backup.removeLast()
-  }
-  
-  func peek() -> Int {
-    if backup.isEmpty {
-      backup.append(contentsOf: arr.reversed())
-      arr = []
+    
+    private var leftStack = Stack()
+    private var rightStack = Stack()
+
+    init() {
+        
     }
-    return backup.last ?? 0
-  }
-  
-  func empty() -> Bool {
-    return arr.isEmpty && backup.isEmpty
-  }
+    
+    func push(_ x: Int) {
+        leftStack.push(x)
+    }
+    
+    func pop() -> Int {
+        poll()
+        return rightStack.pop() ?? -1
+    }
+    
+    func peek() -> Int {
+        poll()
+        return rightStack.top() ?? -1
+    }
+    
+    func empty() -> Bool {
+        return leftStack.isEmpty && rightStack.isEmpty
+    }
+    
+    private func poll() {
+        if rightStack.isEmpty {
+            while let value = leftStack.pop() {
+                rightStack.push(value)
+            }
+        }
+    }
 }
