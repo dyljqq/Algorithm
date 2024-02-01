@@ -254,6 +254,8 @@
 * [1457. Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)
 * [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 * [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)
+* [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+* [2966. Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/)
 
 ### 使用swift解题
 
