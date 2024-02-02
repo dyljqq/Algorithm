@@ -256,6 +256,7 @@
 * [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)
 * [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 * [2966. Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/)
+* [1291. Sequential Digits](https://leetcode.com/problems/sequential-digits/)
 
 ### 使用swift解题
 
