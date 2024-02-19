@@ -2,20 +2,13 @@
 //  231.swift
 //  Leetcode
 //
-//  Created by 季勤强 on 2021/12/21.
+//  Created by polaris dev on 2024/2/19.
 //
 
 import Foundation
 
-class Leetcode231 {
-    
+class Solution231 {
     func isPowerOfTwo(_ n: Int) -> Bool {
-        return (n > 0) && (n & (n - 1)) == 0
-    }
-    
-    func test() {
-        for num in [1, 16, 3, -4, -5] {
-            print(isPowerOfTwo(num))
-        }
+        (n > 0) && (n & (n - 1)) == 0
     }
 }
