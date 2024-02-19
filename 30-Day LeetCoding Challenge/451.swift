@@ -2,28 +2,27 @@
 //  451.swift
 //  Leetcode
 //
-//  Created by jiqinqiang on 2022/12/3.
+//  Created by polaris dev on 2024/2/7.
 //
 
 import Foundation
 
-class Leetcode451 {
-  
-  func frequencySort(_ s: String) -> String {
-    var hash: [Character: Int] = [:]
-    s.forEach { hash[$0, default: 0] += 1 }
-    
-    var rh: [Int: String] = [:]
-    for (key, value) in hash {
-      rh[value, default: ""] += (0..<value).map { _ in String(key) }.reduce("", +)
+class Solution451 {
+    func frequencySort(_ s: String) -> String {
+        var hash: [String.Element: (String.Element, Int)] = [:]
+        s.forEach { ch in
+            let value = hash[ch, default: (ch, 0)]
+            hash[ch] = (ch, value.1 + 1)
+        }
+        let values = hash.values.sorted { $0.1 > $1.1 }
+        return values.reduce("") { result, value in
+            result + String((0..<value.1).map { _ in value.0 })
+        }
     }
-    return rh.keys.sorted { $0 > $1 }.reduce("") { $0 + rh[$1]! }
-  }
-  
-  func test() {
-    print(frequencySort("tree"))
-    print(frequencySort("Aabb"))
-    print(frequencySort("cccaaa"))
-  }
-  
+    
+    func test() {
+        print(frequencySort("tree"))
+        print(frequencySort("cccaaa"))
+        print(frequencySort("Aabb"))
+    }
 }

@@ -91,7 +91,6 @@
 * [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 * [337. House Robber III](https://leetcode.com/problems/house-robber-iii/)
 * [1217. Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
-* [231. Power of Two](https://leetcode.com/problems/power-of-two/)
 * [143. Reorder List](https://leetcode.com/problems/reorder-list/)
 * [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 * [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
@@ -259,6 +258,10 @@
 * [1291. Sequential Digits](https://leetcode.com/problems/sequential-digits/)
 * [1043. Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)
 * [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+* [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
+* [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+* [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
+* [231. Power of Two](https://leetcode.com/problems/power-of-two/)
 
 ### 使用swift解题
 
