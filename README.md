@@ -262,6 +262,7 @@
 * [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 * [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
 * [231. Power of Two](https://leetcode.com/problems/power-of-two/)
+* [268. Missing Number](https://leetcode.com/problems/missing-number/)
 
 ### 使用swift解题
 
