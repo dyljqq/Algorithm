@@ -50,7 +50,6 @@
 * [Max Consecutive Ones](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/638/week-3-september-15th-september-21st/3982/)
 * [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 * [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
-* [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)
 * [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 * [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
 * [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
@@ -263,6 +262,7 @@
 * [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
 * [231. Power of Two](https://leetcode.com/problems/power-of-two/)
 * [268. Missing Number](https://leetcode.com/problems/missing-number/)
+* [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)
 
 ### 使用swift解题
 
