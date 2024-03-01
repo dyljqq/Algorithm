@@ -265,6 +265,7 @@
 * [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)
 * [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)
 * [1609. Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)
+* [2864. Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)
 
 ### 使用swift解题
 
