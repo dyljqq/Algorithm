@@ -2,20 +2,18 @@
 //  876.swift
 //  Leetcode
 //
-//  Created by jiqinqiang on 2022/12/5.
+//  Created by polaris dev on 2024/3/7.
 //
 
 import Foundation
 
-class Leetcode876 {
-  
-  func middleNode(_ head: ListNode?) -> ListNode? {
-    var first = head, second = head
-    while second?.next != nil {
-      first = first?.next
-      second = second?.next?.next
+class Solution876 {
+    func middleNode(_ head: ListNode?) -> ListNode? {
+        var slow = head, fast = head
+        while fast?.next != nil {
+            slow = slow?.next
+            fast = fast?.next?.next
+        }
+        return slow
     }
-    return first
-  }
-  
 }
