@@ -269,6 +269,7 @@
 * [948. Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)
 * [1750. Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/)
 * [3005. Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/)
+* [2540. Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)
 
 ### 使用swift解题
 
