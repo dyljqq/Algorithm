@@ -270,6 +270,7 @@
 * [1750. Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/)
 * [3005. Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/)
 * [2540. Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)
+* [791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/)
 
 ### 使用swift解题
 
