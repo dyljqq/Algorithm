@@ -271,6 +271,7 @@
 * [3005. Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/)
 * [2540. Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)
 * [791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/)
+* [2485. Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/)
 
 ### 使用swift解题
 
