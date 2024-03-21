@@ -23,7 +23,6 @@
 * [34. Find First and Last Position of Element in Sorted Array](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)
 * [剑指 Offer 29. 顺时针打印矩阵](https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)
 * [102. 二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/)
-* [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
 
 #### 30Day
 * [Two Sum](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/613/week-1-august-1st-august-7th/3836/)
@@ -276,6 +275,7 @@
 * [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 * [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 * [1669. Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)
+* [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
 ### 使用swift解题
 
