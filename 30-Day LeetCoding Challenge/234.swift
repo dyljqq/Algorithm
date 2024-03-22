@@ -2,58 +2,46 @@
 //  234.swift
 //  Leetcode
 //
-//  Created by jiqinqiang on 2022/8/23.
+//  Created by polaris dev on 2024/3/22.
 //
 
 import Foundation
 
-public class ListNode {
-  public var val: Int
-  public var next: ListNode?
-  public init() { self.val = 0; self.next = nil; }
-  public init(_ val: Int) { self.val = val; self.next = nil; }
-  public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
-}
-
-class Leetcode234 {
-  
-  func isPalindrome(_ head: ListNode?) -> Bool {
-    var slow = head, fast = head
-    while let f = fast, let ff = f.next {
-      fast = ff.next
-      slow = slow?.next
+class Solution234 {
+    
+    func reverseList(_ head: ListNode?) -> ListNode? {
+        var prev: ListNode? = nil, next: ListNode? = nil, node = head
+            
+        while node != nil {
+          next = node?.next
+          node?.next = prev
+          prev = node
+          node = next
+        }
+        
+        return prev
     }
     
-    if fast != nil {
-      slow = slow?.next
+    func linkListToArray(_ node: ListNode?) -> [Int] {
+        var arr: [Int] = []
+        var p = node
+        while p != nil {
+            arr.append(p!.val)
+            p = p?.next
+        }
+        return arr
     }
     
-    slow = reverse(slow)
-    var node = head
-    while let n = node, let s = slow, n.val == s.val {
-      slow = slow?.next
-      node = node?.next
+    func isPalindrome(_ head: ListNode?) -> Bool {
+        let first = linkListToArray(head)
+        let other = reverseList(head)
+        return first == linkListToArray(other)
     }
     
-    return slow == nil
-  }
-  
-  func reverse(_ node: ListNode?) -> ListNode? {
-    var head = node
-    var pre: ListNode? = nil
-
-    while head != nil {
-      let next = head?.next
-      head?.next = pre
-      pre = head
-      head = next
+    func test() {
+        let root = [1, 1, 2, 1].toListNode()
+        print(isPalindrome(root))
+        print(isPalindrome([1, 2, 2, 1].toListNode()))
     }
 
-    return pre
-  }
-  
-  func test() {
-    
-  }
-  
 }
