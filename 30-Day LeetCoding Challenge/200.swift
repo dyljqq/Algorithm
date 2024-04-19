@@ -2,53 +2,32 @@
 //  200.swift
 //  Leetcode
 //
-//  Created by jiqinqiang on 2022/8/29.
+//  Created by polaris dev on 2024/4/19.
 //
 
 import Foundation
 
-class Leetcode200 {
-  
-  func helper(_ i: Int, _ j: Int, _ grid: inout [[Character]]) {
-    guard i >= 0 && i < grid.count && j >= 0 && j < grid[0].count && grid[i][j] == "1" else {
-      return
+class Solution200 {
+    
+    func dfs(row: Int, col: Int, grid: inout [[Character]]) {
+        guard row >= 0 && row < grid.count && col >= 0 && col < grid[0].count && grid[row][col] == "1" else { return }
+        grid[row][col] = Character("-1")
+        dfs(row: row + 1, col: col, grid: &grid)
+        dfs(row: row - 1, col: col, grid: &grid)
+        dfs(row: row, col: col + 1, grid: &grid)
+        dfs(row: row, col: col - 1, grid: &grid)
     }
     
-    grid[i][j] = "0"
-    helper(i + 1, j, &grid)
-    helper(i, j + 1, &grid)
-    helper(i - 1, j, &grid)
-    helper(i, j - 1, &grid)
-  }
-  
-  func numIslands(_ grid: [[Character]]) -> Int {
-    var grid = grid, cnt = 0
-    for i in 0..<grid.count {
-      for j in 0..<grid[0].count {
-        if grid[i][j] == "1" {
-          cnt += 1
-          helper(i, j, &grid)
+    func numIslands(_ grid: [[Character]]) -> Int {
+        var grid = grid, cnt = 0
+        for row in 0..<grid.count {
+            for col in 0..<grid[0].count {
+                if grid[row][col] == "1" {
+                    dfs(row: row, col: col, grid: &grid)
+                    cnt += 1
+                }
+            }
         }
-      }
+        return cnt
     }
-    
-    return cnt
-  }
-  
-  func test() {
-    print(numIslands([
-      ["1","1","1","1","0"],
-      ["1","1","0","1","0"],
-      ["1","1","0","0","0"],
-      ["0","0","0","0","0"]
-    ]))
-    
-    print(numIslands([
-      ["1","1","0","0","0"],
-      ["1","1","0","0","0"],
-      ["0","0","1","0","0"],
-      ["0","0","0","1","1"]
-    ]))
-  }
-  
 }
