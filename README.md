@@ -279,6 +279,7 @@
 * [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)
 * [988. Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)
 * [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/)
+* [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
 
 ### 使用swift解题
 
