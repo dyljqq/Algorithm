@@ -280,6 +280,7 @@
 * [988. Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)
 * [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/)
 * [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
+* [2370. Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/)
 
 ### 使用swift解题
 
