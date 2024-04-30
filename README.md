@@ -283,6 +283,7 @@
 * [2370. Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/)
 * [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)
 * [2997. Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/)
+* [1915. Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/)
 
 ### 使用swift解题
 
