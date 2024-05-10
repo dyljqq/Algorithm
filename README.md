@@ -287,6 +287,7 @@
 * [2816. Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/)
 * [506. Relative Ranks](https://leetcode.com/problems/relative-ranks/)
 * [3075. Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/)
+* [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)
 
 ### 使用swift解题
 
