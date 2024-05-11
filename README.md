@@ -288,6 +288,7 @@
 * [506. Relative Ranks](https://leetcode.com/problems/relative-ranks/)
 * [3075. Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/)
 * [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)
+* [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)
 
 ### 使用swift解题
 
