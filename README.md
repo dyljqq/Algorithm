@@ -291,6 +291,7 @@
 * [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)
 * [2542. Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score/)
 * [861. Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/)
+* [1219. Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)
 
 ### 使用swift解题
 
