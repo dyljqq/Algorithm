@@ -295,6 +295,7 @@
 * [2331. Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)
 * [1325. Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)
 * [1863. Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)
+* [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 
 ### 使用swift解题
 
