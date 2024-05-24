@@ -297,6 +297,7 @@
 * [1863. Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)
 * [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 * [2597. The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)
+* [1255. Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)
 
 ### 使用swift解题
 
