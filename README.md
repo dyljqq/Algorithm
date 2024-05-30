@@ -298,6 +298,7 @@
 * [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 * [2597. The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)
 * [1255. Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)
+* [1442. Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
 
 ### 使用swift解题
 
