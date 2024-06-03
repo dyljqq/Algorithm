@@ -63,7 +63,6 @@
 * [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 * [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
 * [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
-* [260. Single Number III](https://leetcode.com/problems/single-number-iii/)
 * [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
 * [228. Summary Ranges](https://leetcode.com/problems/summary-ranges/)
 * [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
@@ -299,6 +298,8 @@
 * [2597. The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)
 * [1255. Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)
 * [1442. Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
+* [260. Single Number III](https://leetcode.com/problems/single-number-iii/)
+* [2486. Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)
 
 ### 使用swift解题
 
