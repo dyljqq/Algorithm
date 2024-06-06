@@ -302,6 +302,7 @@
 * [2486. Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)
 * [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 * [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/)
+* [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights/)
 
 ### 使用swift解题
 
