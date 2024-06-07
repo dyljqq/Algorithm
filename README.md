@@ -303,6 +303,7 @@
 * [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 * [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/)
 * [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights/)
+* [648. Replace Words](https://leetcode.com/problems/replace-words/)
 
 ### 使用swift解题
 
