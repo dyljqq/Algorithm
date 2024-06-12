@@ -305,6 +305,7 @@
 * [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights/)
 * [648. Replace Words](https://leetcode.com/problems/replace-words/)
 * [1122. Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)
+* [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
 
 ### 使用swift解题
 
