@@ -307,6 +307,7 @@
 * [1122. Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)
 * [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
 * [633. Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)
+* [826. Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)
 
 ### 使用swift解题
 
