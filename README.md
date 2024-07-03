@@ -308,6 +308,7 @@
 * [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
 * [633. Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)
 * [826. Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)
+* [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)
 
 ### 使用swift解题
 
