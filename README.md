@@ -313,6 +313,7 @@
 * [3243. Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/)
 * https://leetcode.com/problems/course-schedule/description/
 * [2109. Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/)
+* [2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/)
 
 ### 使用swift解题
 
