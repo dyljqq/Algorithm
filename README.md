@@ -315,6 +315,7 @@
 * [2109. Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/)
 * [2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/)
 * [2337. Move Pieces to Obtain a String](https://leetcode.com/problems/move-pieces-to-obtain-a-string/)
+* [1792. Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)
 
 ### 使用swift解题
 
